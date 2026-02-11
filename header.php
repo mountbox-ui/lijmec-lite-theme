@@ -27,8 +27,8 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 
-  <header id="header" class="w-full fixed z-[9999]">
-    <div class="fixed lg:h-[155px] h-24 top-0 z-[21] pointer-events-none gradient-shadow">
+  <header id="header" class="w-full max-w-[1440px] mx-auto absolute top-0 left-1/2 -translate-x-1/2 z-[9999]">
+    <div class="absolute lg:h-[155px] h-24 top-0 z-[21] pointer-events-none gradient-shadow w-full">
       <div class="absolute inset-0 pointer-events-none"
         style="backdrop-filter: blur(0px); -webkit-backdrop-filter: blur(0px)"></div>
       <div class="absolute inset-0 pointer-events-none rounded-[inherit]" style="
@@ -122,7 +122,7 @@
         -webkit-backdrop-filter: blur(16px);
       "></div>
     </div>
-    <nav class="z-[1000] fixed px-5 sm:px-8 pt-1 sm:pt-5 nav-top" aria-label="Main navigation">
+    <nav class="z-[1000] absolute w-full top-0 left-0 px-5 sm:px-8 pt-1 sm:pt-5 nav-top" aria-label="Main navigation">
       <div class="flex justify-between">
         <a href="<?php echo esc_url(home_url('/')); ?>">
           <?php lijmec_custom_logo(); ?>

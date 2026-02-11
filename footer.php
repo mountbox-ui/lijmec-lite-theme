@@ -2,7 +2,7 @@
    FooterV2 Section
 ======================================-->
 
-    <footer class="overflow-hidden">
+    <footer class="overflow-hidden max-w-[1440px] mx-auto">
       <div class="-mt-10 sm:-mt-[70px] mb-4 bg-backgroundBody dark:bg-dark">
         <div class="px-4 md:px-[30px]">
           <!-- Footer Content Grid -->

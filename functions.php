@@ -97,8 +97,8 @@ add_filter('excerpt_more', 'lijmec_excerpt_more');
  * Add custom body classes
  */
 function lijmec_body_classes($classes) {
-    $classes[] = 'max-w-[1600px]';
-    $classes[] = 'mx-auto';
+    // $classes[] = 'max-w-[1600px]';
+    // $classes[] = 'mx-auto';
     return $classes;
 }
 add_filter('body_class', 'lijmec_body_classes');
