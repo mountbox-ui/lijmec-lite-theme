@@ -11,6 +11,16 @@
   <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/images/favicon-lijmec.svg" />
   <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/images/images/favicon-lijmec.svg" />
   
+  <style>
+    /* Force dark mode regardless of browser preference */
+    :root {
+      color-scheme: dark only;
+    }
+    html {
+      color-scheme: dark only;
+    }
+  </style>
+  
   <?php wp_head(); ?>
 </head>
 

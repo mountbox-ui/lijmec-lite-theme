@@ -110,8 +110,7 @@ function lijmec_custom_logo() {
     if (has_custom_logo()) {
         the_custom_logo();
     } else {
-        echo '<img class="max-h-[68px] w-auto inline-block dark:hidden" src="' . get_template_directory_uri() . '/images/images/header-logo.svg" alt="' . get_bloginfo('name') . '" />';
-        echo '<img class="max-h-[68px] w-auto dark:inline-block hidden" src="' . get_template_directory_uri() . '/images/images/header-logo.svg" alt="' . get_bloginfo('name') . '" />';
+        echo '<img class="max-h-[68px] w-auto inline-block" src="' . get_template_directory_uri() . '/images/images/header-logo.svg" alt="' . get_bloginfo('name') . '" />';
     }
 }
 

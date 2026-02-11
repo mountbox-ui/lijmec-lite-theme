@@ -7,7 +7,7 @@
         <div class="px-4 md:px-[30px]">
           <!-- Footer Content Grid -->
           <div
-            class="flex items-center flex-col sm:flex-row flex-wrap gap-y-10 sm:gap-y-16 justify-center sm:justify-between relative z-10 pt-10 md:pt-20">
+            class="flex items-start flex-col sm:flex-row flex-wrap gap-y-10 sm:gap-y-16 sm:justify-between relative z-10 pt-10 md:pt-20">
             <!-- Reach Us Section -->
             <div class="sm:pr-8 max-lg:basis-full">
               <img src="<?php echo get_template_directory_uri(); ?>/images/images/header-logo.svg" alt="<?php bloginfo('name'); ?>">
@@ -134,7 +134,7 @@
           </div>
 
           <div
-            class="border-t dark:border-dark mt-10 pt-5 flex flex-col sm:flex-row gap-3 sm:gap-0 justify-between text-center sm:text-left">
+            class="border-t dark:border-dark mt-10 pt-5 flex flex-col sm:flex-row gap-3 sm:gap-0 justify-between text-left">
             <p>
               <?php printf(__('&copy; %s %s. All rights Reserved', 'lijmec'), date('Y'), get_bloginfo('name')); ?>
             </p>
