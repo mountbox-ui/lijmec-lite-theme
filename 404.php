@@ -12,7 +12,7 @@ get_header();
   <!-- Gradient Background -->
   <div id="hero-gradient-wrapper"
     class="absolute w-[44%] lg:w-[40%] h-[44%] lg:h-[40%] top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 -z-10 blur-[60px] max-sm:scale-125 md:scale-[0.72]">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/images/hero-gradient-background.png" alt="hero-gradient-background" id="hero-gradient"
+    <img src="<?php echo get_template_directory_uri(); ?>/images/images/hero-gradient-background-02.png" alt="hero-gradient-background" id="hero-gradient"
       class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2" />
   </div>
 

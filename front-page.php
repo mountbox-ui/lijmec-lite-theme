@@ -9,14 +9,14 @@ get_header();
 ?>
 
 <!-- -============================ LijMec Hero ================================ -->
-<section class="relative pt-40 pb-20 overflow-hidden">
+<section class="relative pt-40 pb-10 overflow-hidden">
   <div id="hero-gradient-wrapper" class="absolute w-2/6 h-2/6 top-40 left-[12%] -z-10 blur-[35px] md:blur-[60px]">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/images/hero-gradient-background.png"
+    <img src="<?php echo get_template_directory_uri(); ?>/images/images/hero-gradient-background-02.png"
       alt="hero-gradient-background" id="hero-gradient"
       class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2" />
   </div>
 
-  <div class="max-w-screen-xl pt-28 md:pt-[250px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] mx-auto relative z-10">
+  <div class="max-w-[1440px] pt-28 md:pt-[180px] pb-14 md:pb-16 mx-auto relative z-10">
     <div class="reveal-me">
       <h1
         class="xl:text-[96px] font-semibold xl:leading-[1.1] xl:tracking-[-2.88px] max-lg:text-center text-colorText dark:text-white">
@@ -39,7 +39,7 @@ get_header();
             </div>
           </div>
         </div>
-        Harness Engineering for Critical Industries
+        Harness Engineering for Industries
       </h1>
     </div>
 
@@ -61,27 +61,27 @@ get_header();
         <div class="z-50 flex gap-5 w-fit flex-nowrap whitespace-nowrap will-change-transform marquee-inner reveal-me">
           <figure
             class="marquee-part flex items-center justify-center size-[370px] z-50 flex-shrink-0 overflow-hidden rounded-xl shadow-lg">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/images/marquee-img/hero-marquee-01.jpg"
+            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/automobiles.png"
               alt="images" class="w-full h-full object-cover" />
           </figure>
           <figure
             class="marquee-part flex items-center justify-center z-50 size-[370px] flex-shrink-0 overflow-hidden rounded-xl shadow-lg">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/images/marquee-img/hero-marquee-02.jpg"
+            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/aerospace.png"
               alt="images" class="w-full h-full object-cover" />
           </figure>
           <figure
             class="marquee-part flex items-center justify-center z-50 size-[370px] flex-shrink-0 overflow-hidden rounded-xl shadow-lg">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/images/marquee-img/hero-marquee-03.jpg"
+            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/logistics.png"
               alt="images" class="w-full h-full object-cover" />
           </figure>
           <figure
             class="marquee-part flex items-center justify-center z-50 size-[370px] flex-shrink-0 overflow-hidden rounded-xl shadow-lg">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/images/marquee-img/hero-marquee-04.jpg"
+            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/defence.png"
               alt="images" class="w-full h-full object-cover" />
           </figure>
           <figure
             class="marquee-part flex items-center justify-center z-50 size-[370px] flex-shrink-0 overflow-hidden rounded-xl shadow-lg">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/images/marquee-img/hero-marquee-05.jpg"
+            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/medical.png"
               alt="images" class="w-full h-full object-cover" />
           </figure>
         </div>
@@ -89,62 +89,60 @@ get_header();
     </div>
   </div>
 
-  <div class="container">
+  <div id="about-us" class="max-w-[1440px] mx-auto px-7 text-start">
     <h3 class="reveal-text-2 reveal-me">
-      We specialize in designing cutting-edge web experiences that flawlessly
-      blend creativity with innovative technology.
+      LijMec Wire Harness delivers engineered wiring solutions across automotive, aviation, defence,
+      logistics, and high-performance industries.
     </h3>
+    <p
+      class="mb-10 mt-10 font-normal text-lg md:text-3xl leading-[25.6px] md:leading-[35.6px] tracking-[0.32px] text-black/70 dark:text-backgroundBody/70">
+      With state-of-the-art equipment and expert engineers, we design, prototype, validate, and manufacture
+      bespoke wire harness systems that meet strict quality standards.
+    </p>
   </div>
 </section>
 
+<!-- =====================
+Counter section 
+======================= -->
 
-<!-- ================================
-About-v13 Section 
-================================ -->
-
-<section class="pt-28 md:pt-[250px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] max-w-[1440px] mx-auto">
-  <div class="container">
-    <!-- Section Header -->
-    <div class="text-center">
-      <div class="rv-badge reveal-me mb-3">
-        <span class="rv-badge-text">About Us</span>
+<section class="pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] max-w-[1440px] mx-auto">
+  <div>
+    <div class="flex flex-wrap items-center justify-center gap-[30px] reveal-me">
+      <div
+        class="border dark:border-dark p-5 md:p-[30px] space-y-3 flex justify-center flex-col items-center min-w-[280px] lg:min-w-[320px] min-h-[180px] lg:min-h-[212px]"
+        id="counter">
+        <h2 class="lg:text-7xl">
+          <span class="counter" data-value="10"></span>+
+        </h2>
+        <p>Years Experience</p>
       </div>
-      <h2 class="mb-10 lg:mb-20 text-center text-appear">
-        About <i class="font-instrument">LijMec</i>
-      </h2>
-    </div>
-    <!-- Case Studies Container -->
-    <div class="mb-[60px] space-y-[30px]">
-      <!-- Case Study 1 -->
-      <div class="flex flex-col lg:flex-row items-center relative reveal-me underline-hover-effect group">
-        <!-- Case Study Image -->
-        <figure class="max-w-[870px] -z-30 overflow-hidden">
-          <a href="#" class="block">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/images/about-us/About-Us-Img.jpg"
-              class="w-full h-full group-hover:scale-125 group-hover:rotate-3 transition-all duration-500"
-              alt="About Us" />
-          </a>
-        </figure>
-
-        <!-- Overlapping Content Card -->
-        <div
-          class="p-[30px] z-30 max-md:-mt-5 lg:absolute lg:right-0 bg-backgroundBody dark:bg-dark border border-black/10 dark:border-white/10 lg:max-w-[570px] w-full">
-          <p class="mb-3.5 text-black dark:text-white font-normal text-sm leading-6 tracking-[3px] uppercase">
-            Company
-          </p>
-          <p
-            class="mb-10 font-normal text-base leading-[25.6px] tracking-[0.32px] text-black/70 dark:text-backgroundBody/70">
-            LijMec Wire Harness delivers engineered wiring solutions across automotive, aviation, defence,
-            logistics, and high-performance industries.
-          </p>
-          <p
-            class="mb-10 font-normal text-base leading-[25.6px] tracking-[0.32px] text-black/70 dark:text-backgroundBody/70">
-            With state-of-the-art equipment and expert engineers, we design, prototype, validate, and manufacture
-            bespoke wire harness systems that meet strict quality standards.
-          </p>
-        </div>
+      <div
+        class="border dark:border-dark p-5 md:p-[30px] space-y-3 flex justify-center flex-col items-center min-w-[280px] lg:min-w-[320px] min-h-[180px] lg:min-h-[212px]"
+        id="counter">
+        <h2 class="lg:text-7xl">
+          <span class="counter" data-value="5000"></span>+
+        </h2>
+        <p>Harnesses Delivered</p>
+      </div>
+      <div
+        class="border dark:border-dark p-5 md:p-[30px] space-y-3 flex justify-center flex-col items-center min-w-[280px] lg:min-w-[320px] min-h-[180px] lg:min-h-[212px]"
+        id="counter">
+        <h2 class="lg:text-7xl">
+          <span class="counter" data-value="100"></span>+
+        </h2>
+        <p>Clients Worldwide</p>
+      </div>
+      <div
+        class="border dark:border-dark p-5 md:p-[30px] space-y-3 flex justify-center flex-col items-center min-w-[280px] lg:min-w-[320px] min-h-[180px] lg:min-h-[212px]"
+        id="counter">
+        <h2 class="lg:text-7xl">
+          <span class="counter" data-value="100"></span>%
+        </h2>
+        <p>Quality Compliance</p>
       </div>
     </div>
+  </div>
 </section>
 
 <!-- =====================
@@ -242,11 +240,150 @@ what we offer-v3 section
   </div>
 </section>
 
+<!-- ================================
+Service Section 
+================================ -->
+
+<!-- <section class="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]">
+    <div class="container"> -->
+        <!-- Section Header -->
+        <!-- <div class="text-center mb-8 md:mb-14">
+            <div class="rv-badge reveal-me">
+                <span class="rv-badge-text">what we offer</span>
+            </div>
+            <h2 class="my-3 text-appear">What We
+                <i class="font-instrument"> Offer </i>
+            </h2>
+            <p class="text-appear">Comprehensive wire harness solutions from concept to completion</p>
+        </div>
+    </div> -->
+    <!-- Main Section  -->
+
+    <!-- <div
+        class="flex justify-center flex-wrap max-lg:gap-5 px-5 xl:px-5 [&>*]:border-y dark:[&>*]:border-y-dark [&>*:not(:last-child)]:border-l dark:[&>*:not(:last-child)]:border-l-dark [&>*:last-child]:border-x dark:[&>*:last-child]:border-x-dark max-xl:[&>*:first-child]:border-r dark:max-xl:[&>*:first-child]:border-dark max-xl:[&>*:nth-child(2)]:border-r dark:max-xl:[&>*:nth-child(2)]:border-dark max-2xl:[&>*:nth-child(3)]:border-r dark:max-2xl:[&>*:nth-child(3)]:border-dark"> -->
+        <!-- Service Card1 -->
+        <!-- <div
+            class="relative group reveal-me overflow-hidden w-full md:w-[calc(50%-10px)] lg:w-[calc(33.333%-14px)] xl:w-[390px] min-h-[410px]">
+            <div> -->
+                <!-- Front Side -->
+                <!-- <div
+                    class="absolute w-full h-full px-[30px] py-10 flex-1 transition-all duration-700 translate-y-0 group-hover:-translate-y-full opacity-100 group-hover:opacity-0">
+                    <span>
+                      <img src="<?php echo get_template_directory_uri(); ?>/images/images/what-we-offer/custom-wire.svg" alt="">
+                    </span>
+                    <h5 class="mb-4 mt-9 text-4xl leading-[1.2] -tracking-[1.08px]">
+                        Custom Wire Harness Design
+                    </h5>
+                    <p>Tailored engineering services built around your product specs.</p>
+                </div> -->
+
+                <!-- Hover Back Side -->
+                <!-- <div
+                    class="absolute w-full h-full flex-1 px-[30px] py-12 z-10 bg-secondary dark:bg-backgroundBody transition-all duration-700 translate-y-full group-hover:translate-y-0 group-hover:inset-0">
+                    <span>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/images/what-we-offer/custom-wire-black.svg" alt="">
+                    </span>
+                    <h5 class="mb-3 mt-9 text-backgroundBody dark:text-secondary text-4xl leading-[1.2] -tracking-[1.08px]">Custom Wire Harness Design</h5>
+                    <p class="mb-10 text-backgroundBody dark:text-secondary">Tailored engineering services built around your product specs.</p>
+                </div>
+            </div>
+        </div> -->
+        <!-- Service Card2 -->
+        <!-- <div
+            class="relative group reveal-me overflow-hidden w-full md:w-[calc(50%-10px)] lg:w-[calc(33.333%-14px)] xl:w-[390px] min-h-[410px]">
+            <div> -->
+                <!-- Front Side -->
+                <!-- <div class="absolute w-full h-full px-[30px] py-10 flex-1 transition-all duration-700 translate-y-0 group-hover:-translate-y-full opacity-100 group-hover:opacity-0">
+                    <span>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/images/what-we-offer/wire-prototyping.svg" alt="">
+                    </span>
+                    <h5 class="mb-4 mt-9 text-4xl leading-[1.2] -tracking-[1.08px]">Prototyping & Validation</h5>
+                    <p>Rapid development and rigorous testing for precision and reliability.</p>
+                </div> -->
+
+                <!-- Hover Back Side -->
+                <!-- <div
+                    class="absolute w-full h-full flex-1 px-[30px] py-12 z-10 bg-secondary dark:bg-backgroundBody transition-all duration-700 translate-y-full group-hover:translate-y-0 group-hover:inset-0">
+                    <span>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/images/what-we-offer/wire-prototyping-black.svg" alt="">
+                    </span>
+                    <h5
+                        class="mb-3 mt-9 text-backgroundBody dark:text-secondary text-4xl leading-[1.2] -tracking-[1.08px]">
+                        Prototyping & Validation
+                    </h5>
+                    <p class="mb-10 text-backgroundBody dark:text-secondary">
+                        Rapid development and rigorous testing for precision and reliability.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- second Card Container -->
+    <!-- <div
+        class="flex max-lg:mt-5 justify-center flex-wrap max-lg:gap-5 px-5 xl:px-5 max-lg:[&>*]:border-y max-lg:dark:[&>*]:border-y-dark lg:[&>*]:border-b lg:dark:[&>*]:border-b-dark [&>*:not(:last-child)]:border-l dark:[&>*:not(:last-child)]:border-l-dark [&>*:last-child]:border-x dark:[&>*:last-child]:border-x-dark max-xl:[&>*:first-child]:border-r dark:max-xl:[&>*:first-child]:border-dark max-xl:[&>*:nth-child(2)]:border-r dark:max-xl:[&>*:nth-child(2)]:border-dark max-2xl:[&>*:nth-child(3)]:border-r dark:max-2xl:[&>*:nth-child(3)]:border-dark"> -->
+        <!-- Service Card -->
+        <!-- <div
+            class="relative group reveal-me overflow-hidden w-full md:w-[calc(50%-10px)] lg:w-[calc(33.333%-14px)] xl:w-[390px] min-h-[410px]">
+            <div> -->
+                <!-- Front Side -->
+                <!-- <div
+                    class="absolute w-full h-full px-[30px] py-10 flex-1 transition-all duration-700 translate-y-0 group-hover:-translate-y-full opacity-100 group-hover:opacity-0">
+                    <span>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/images/what-we-offer/wire-manufacturing.svg" alt="">
+                    </span>
+                    <h5 class="mb-4 mt-9 text-4xl leading-[1.2] -tracking-[1.08px]">Manufacturing Excellence</h5>
+                    <p>From low volume to high volume runs — high standards every step.</p>
+                </div> -->
+
+                <!-- Hover Back Side -->
+                <!-- <div
+                    class="absolute w-full h-full flex-1 px-[30px] py-12 z-10 bg-secondary dark:bg-backgroundBody transition-all duration-700 translate-y-full group-hover:translate-y-0 group-hover:inset-0">
+                    <span>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/images/what-we-offer/wire-manufacturing-black.svg" alt="">
+                    </span>
+                    <h5 class="mb-3 mt-9 text-backgroundBody dark:text-secondary text-4xl leading-[1.2] -tracking-[1.08px]">Manufacturing Excellence</h5>
+                    <p class="mb-10 text-backgroundBody dark:text-secondary">From low volume to high volume runs — high standards every step.</p>
+                </div>
+            </div>
+        </div> -->
+        <!-- Service Card -->
+        <!-- <div
+            class="relative group reveal-me overflow-hidden w-full md:w-[calc(50%-10px)] lg:w-[calc(33.333%-14px)] xl:w-[390px] min-h-[410px]">
+            <div> -->
+                <!-- Front Side -->
+                <!-- <div
+                    class="absolute w-full h-full px-[30px] py-10 flex-1 transition-all duration-700 translate-y-0 group-hover:-translate-y-full opacity-100 group-hover:opacity-0">
+                    <span>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/images/what-we-offer/wire-quality.svg" alt="">
+                    </span>
+                    <h5 class="mb-4 mt-9 text-4xl leading-[1.2] -tracking-[1.08px]">Quality Assurance</h5>
+                    <p>Industry-aligned quality cycles and inspection protocols.</p>
+                </div> -->
+
+                <!-- Hover Back Side -->
+                <!-- <div
+                    class="absolute w-full h-full flex-1 px-[30px] py-12 z-10 bg-secondary dark:bg-backgroundBody transition-all duration-700 translate-y-full group-hover:translate-y-0 group-hover:inset-0">
+                    <span>
+                        <span>
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/images/what-we-offer/wire-quality-black.svg" alt="">
+                        </span>
+                    </span>
+                    <h5
+                        class="mb-3 mt-9 text-backgroundBody dark:text-secondary text-4xl leading-[1.2] -tracking-[1.08px]">Quality Assurance</h5>
+                    <p class="mb-10 text-backgroundBody dark:text-secondary">
+                        Industry-aligned quality cycles and inspection protocols.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+
 <!-- =====================
 why choose us section 
 ======================= -->
 
-<section class="pt-28 md:pt-[250px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] relative overflow-hidden">
+<section id="why-choose-us" class="pt-28 md:pt-[250px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] relative overflow-hidden">
   <div class="container">
     <!-- Section Header -->
     <div class="text-center mb-8 md:mb-14">
@@ -321,21 +458,25 @@ Industries we cater to section
     <!-- Card-1: Automobile & EV Sector -->
     <article class="blog-card border dark:border-dark p-2.5 group relative cursor-pointer reveal-me">
       <a href="#" class="w-full">
-        <figure class="overflow-hidden h-[238px]">
+        <figure class="overflow-hidden h-[238px] relative">
           <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/automobiles.png"
             alt="Automobile & EV Sector"
             class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3 object-cover"
             width="370" height="238" />
+          <div class=" absolute top-5 left-6 z-10 bg-black backdrop-blur-sm px-4 py-2 rounded-full">
+            <span class=" text-white uppercase">Mobility</span>
+          </div>
         </figure>
         <div class="px-2.5">
-          <div class="rv-badge mt-7">
-            <span class="rv-badge-text">Mobility</span>
-          </div>
 
           <div class="blog-title mt-3.5 mb-[30px]">
             <h3 class="text-[25px] md:text-3xl lg:text-[32px] lg:leading-[1.2] lg:tracking-[-0.72px]">
               Automobile & EV Sector
             </h3>
+            <p class="py-3 leading-[1.6] text-base">
+            Our cutting-edge machinery ensures every harness meets stringent
+            industry standards, guaranteeing reliable and top-tier performance.
+          </p>
           </div>
         </div>
       </a>
@@ -344,21 +485,25 @@ Industries we cater to section
     <!-- Card-2: Aviation & Aerospace -->
     <article class="blog-card border dark:border-dark p-2.5 group relative cursor-pointer reveal-me">
       <a href="#" class="w-full">
-        <figure class="overflow-hidden h-[238px]">
+        <figure class="overflow-hidden h-[238px] relative">
           <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/aerospace.png"
             alt="Aviation & Aerospace"
             class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3 object-cover"
             width="370" height="238" />
+          <div class=" absolute top-5 left-6 z-10 bg-black backdrop-blur-sm px-4 py-2 rounded-full">
+            <span class=" text-white uppercase">Aerospace</span>
+          </div>
         </figure>
         <div class="px-2.5">
-          <div class="rv-badge mt-7">
-            <span class="rv-badge-text">Aerospace</span>
-          </div>
 
           <div class="blog-title mt-3.5 mb-[30px]">
             <h3 class="text-[25px] md:text-3xl lg:text-[32px] lg:leading-[1.2] lg:tracking-[-0.72px]">
               Aviation & Aerospace
             </h3>
+            <p class="py-3 leading-[1.6] text-base">
+            Our cutting-edge machinery ensures every harness meets stringent
+            industry standards, guaranteeing reliable and top-tier performance.
+          </p>
           </div>
         </div>
       </a>
@@ -367,21 +512,25 @@ Industries we cater to section
     <!-- Card-3: Defence & Strategic Systems -->
     <article class="blog-card border dark:border-dark p-2.5 group relative cursor-pointer reveal-me">
       <a href="#" class="w-full">
-        <figure class="overflow-hidden h-[238px]">
+        <figure class="overflow-hidden h-[238px] relative">
           <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/defence.png"
             alt="Defence & Strategic Systems"
             class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3 object-cover"
             width="370" height="238" />
+          <div class=" absolute top-5 left-6 z-10 bg-black backdrop-blur-sm px-4 py-2 rounded-full">
+            <span class=" text-white uppercase">Defence</span>
+          </div>
         </figure>
         <div class="px-2.5">
-          <div class="rv-badge mt-7">
-            <span class="rv-badge-text">Defence</span>
-          </div>
 
           <div class="blog-title mt-3.5 mb-[30px]">
             <h3 class="text-[25px] md:text-3xl lg:text-[32px] lg:leading-[1.2] lg:tracking-[-0.72px]">
               Defence & Strategic Systems
             </h3>
+            <p class="py-3 leading-[1.6] text-base">
+            Our cutting-edge machinery ensures every harness meets stringent
+            industry standards, guaranteeing reliable and top-tier performance.
+          </p>
           </div>
         </div>
       </a>
@@ -390,21 +539,25 @@ Industries we cater to section
     <!-- Card-4: Logistics & Infrastructure -->
     <article class="blog-card border dark:border-dark p-2.5 group relative cursor-pointer reveal-me">
       <a href="#" class="w-full">
-        <figure class="overflow-hidden h-[238px]">
+        <figure class="overflow-hidden h-[238px] relative">
           <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/logistics.png"
             alt="Logistics & Infrastructure"
             class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3 object-cover"
             width="370" height="238" />
+          <div class=" absolute top-5 left-6 z-10 bg-black backdrop-blur-sm px-4 py-2 rounded-full">
+            <span class=" text-white uppercase">Logistics</span>
+          </div>
         </figure>
         <div class="px-2.5">
-          <div class="rv-badge mt-7">
-            <span class="rv-badge-text">Logistics</span>
-          </div>
 
           <div class="blog-title mt-3.5 mb-[30px]">
             <h3 class="text-[25px] md:text-3xl lg:text-[32px] lg:leading-[1.2] lg:tracking-[-0.72px]">
               Logistics & Infrastructure
             </h3>
+            <p class="py-3 leading-[1.6] text-base">
+            Our cutting-edge machinery ensures every harness meets stringent
+            industry standards, guaranteeing reliable and top-tier performance.
+          </p>
           </div>
         </div>
       </a>
@@ -413,21 +566,25 @@ Industries we cater to section
     <!-- Card-5: Medical Devices & Equipment -->
     <article class="blog-card border dark:border-dark p-2.5 group relative cursor-pointer reveal-me">
       <a href="#" class="w-full">
-        <figure class="overflow-hidden h-[238px]">
+        <figure class="overflow-hidden h-[238px] relative">
           <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/medical.png"
             alt="Medical Devices & Equipment"
             class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3 object-cover"
             width="370" height="238" />
+          <div class=" absolute top-5 left-6 z-10 bg-black backdrop-blur-sm px-4 py-2 rounded-full">
+            <span class=" text-white uppercase">Medical</span>
+          </div>
         </figure>
         <div class="px-2.5">
-          <div class="rv-badge mt-7">
-            <span class="rv-badge-text">Medical</span>
-          </div>
 
           <div class="blog-title mt-3.5 mb-[30px]">
             <h3 class="text-[25px] md:text-3xl lg:text-[32px] lg:leading-[1.2] lg:tracking-[-0.72px]">
               Medical Devices & Equipment
             </h3>
+            <p class="py-3 leading-[1.6] text-base">
+            Our cutting-edge machinery ensures every harness meets stringent
+            industry standards, guaranteeing reliable and top-tier performance.
+          </p>
           </div>
         </div>
       </a>
@@ -436,21 +593,25 @@ Industries we cater to section
     <!-- Card-6: High-Power Electrical -->
     <article class="blog-card border dark:border-dark p-2.5 group relative cursor-pointer reveal-me">
       <a href="#" class="w-full">
-        <figure class="overflow-hidden h-[238px]">
+        <figure class="overflow-hidden h-[238px] relative">
           <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/electrical.png"
             alt="High-Power Electrical"
             class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3 object-cover"
             width="370" height="238" />
+          <div class=" absolute top-5 left-6 z-10 bg-black backdrop-blur-sm px-4 py-2 rounded-full">
+            <span class=" text-white uppercase">Industrial</span>
+          </div>
         </figure>
         <div class="px-2.5">
-          <div class="rv-badge mt-7">
-            <span class="rv-badge-text">Industrial</span>
-          </div>
 
           <div class="blog-title mt-3.5 mb-[30px]">
             <h3 class="text-[25px] md:text-3xl lg:text-[32px] lg:leading-[1.2] lg:tracking-[-0.72px]">
               High-Power Electrical Systems
             </h3>
+            <p class="py-3 leading-[1.6] text-base">
+            Our cutting-edge machinery ensures every harness meets stringent
+            industry standards, guaranteeing reliable and top-tier performance.
+          </p>
           </div>
         </div>
       </a>
@@ -458,59 +619,15 @@ Industries we cater to section
   </div>
 </section>
 
-<!-- =====================
-Counter section 
-======================= -->
-
-<section class="pt-28 md:pt-[250px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] max-w-[1440px] mx-auto">
-  <div>
-    <div class="flex flex-wrap items-center justify-center gap-[30px] reveal-me">
-      <div
-        class="border dark:border-dark p-5 md:p-[30px] space-y-3 flex justify-center flex-col items-center min-w-[280px] lg:min-w-[320px] min-h-[180px] lg:min-h-[212px]"
-        id="counter">
-        <h2 class="lg:text-7xl">
-          <span class="counter" data-value="10"></span>+
-        </h2>
-        <p>Years Experience</p>
-      </div>
-      <div
-        class="border dark:border-dark p-5 md:p-[30px] space-y-3 flex justify-center flex-col items-center min-w-[280px] lg:min-w-[320px] min-h-[180px] lg:min-h-[212px]"
-        id="counter">
-        <h2 class="lg:text-7xl">
-          <span class="counter" data-value="5000"></span>+
-        </h2>
-        <p>Harnesses Delivered</p>
-      </div>
-      <div
-        class="border dark:border-dark p-5 md:p-[30px] space-y-3 flex justify-center flex-col items-center min-w-[280px] lg:min-w-[320px] min-h-[180px] lg:min-h-[212px]"
-        id="counter">
-        <h2 class="lg:text-7xl">
-          <span class="counter" data-value="100"></span>+
-        </h2>
-        <p>Clients Worldwide</p>
-      </div>
-      <div
-        class="border dark:border-dark p-5 md:p-[30px] space-y-3 flex justify-center flex-col items-center min-w-[280px] lg:min-w-[320px] min-h-[180px] lg:min-h-[212px]"
-        id="counter">
-        <h2 class="lg:text-7xl">
-          <span class="counter" data-value="100"></span>%
-        </h2>
-        <p>Quality Compliance</p>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!--=====================================
    FAQ Section
 ======================================-->
+
 <section
-  class="pt-16 md:pt-20 lg:pt-[98px] xl:pt-[120px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] relative @@faqSpacing"
->
+  class="pt-16 md:pt-20 lg:pt-[98px] xl:pt-[120px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] relative @@faqSpacing">
   <div
-    class="absolute scale-y-[3.5] sm:scale-y-[2.2] md:scale-y-[1.6] xl:scale-y-[1.4] scale-x-[1.7] left-1/2 top-1/2 max-md:-translate-y-[45%] md:-translate-y-1/2 -translate-x-1/2 -z-30"
-  >
-    <img src="<?php echo get_template_directory_uri(); ?>/images/images/gradient-bg.png" alt="gradient-bg" />
+    class="absolute scale-y-[3.5] sm:scale-y-[2.2] md:scale-y-[1.6] xl:scale-y-[1.4] scale-x-[1.7] left-1/2 top-1/2 max-md:-translate-y-[45%] md:-translate-y-1/2 -translate-x-1/2 -z-30">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/images/hero-gradient-background-02.png" alt="gradient-bg" />
   </div>
   <div class="container">
     <!-- FAQ Section Title -->
@@ -520,26 +637,18 @@ Counter section
     </h2>
 
     <!-- FAQ Items Container -->
-    <div
-      class="max-w-[900px] w-full mx-auto [&>*:not(:last-child)]:mb-6 reveal-me"
-    >
+    <div class="max-w-[900px] w-full mx-auto [&>*:not(:last-child)]:mb-6 reveal-me">
       <!-- FAQ Item 1 -->
       <div
-        class="accordion-item overflow-hidden bg-backgroundBody dark:bg-dark border border-backgroundBody dark:border-[#151515] duration-300"
-      >
-        <div
-          class="accordion-header relative cursor-pointer py-5 md:py-[35px] max-md:px-5 md:px-10"
-        >
+        class="accordion-item overflow-hidden bg-backgroundBody dark:bg-dark border border-backgroundBody dark:border-[#151515] duration-300">
+        <div class="accordion-header relative cursor-pointer py-5 md:py-[35px] max-md:px-5 md:px-10">
           <h3
-            class="text-xl md:text-[25px] font-normal sm:font-medium md:leading-[25.2px] md:tracking-normal max-md:inline-block max-lg:pr-10"
-          >
+            class="text-xl md:text-[25px] font-normal sm:font-medium md:leading-[25.2px] md:tracking-normal max-md:inline-block max-lg:pr-10">
             What does it cost to work with you?
           </h3>
           <div class="accordion-header-icon dark:border-dark"></div>
         </div>
-        <p
-          class="accordion-body max-md:text-sm max-md:px-5 md:px-10 duration-300 h-0"
-        >
+        <p class="accordion-body max-md:text-sm max-md:px-5 md:px-10 duration-300 h-0">
           We mostly work on a fixed-bid basis for our projects, focusing on a
           select few clients at a time. To provide an accurate estimate, we need
           a clear understanding of your requirements, project scope,
@@ -549,21 +658,15 @@ Counter section
 
       <!-- FAQ Item 2 -->
       <div
-        class="accordion-item overflow-hidden bg-backgroundBody dark:bg-dark border border-backgroundBody dark:border-[#151515] duration-300"
-      >
-        <div
-          class="accordion-header relative cursor-pointer py-5 md:py-[35px] max-md:px-5 md:px-10"
-        >
+        class="accordion-item overflow-hidden bg-backgroundBody dark:bg-dark border border-backgroundBody dark:border-[#151515] duration-300">
+        <div class="accordion-header relative cursor-pointer py-5 md:py-[35px] max-md:px-5 md:px-10">
           <h3
-            class="text-xl md:text-[25px] font-normal sm:font-medium md:tracking-normal max-md:inline-block max-lg:pr-10"
-          >
+            class="text-xl md:text-[25px] font-normal sm:font-medium md:tracking-normal max-md:inline-block max-lg:pr-10">
             How big is your team?
           </h3>
           <div class="accordion-header-icon dark:border-dark"></div>
         </div>
-        <p
-          class="accordion-body max-md:text-sm max-md:px-5 md:px-10 duration-300 h-0"
-        >
+        <p class="accordion-body max-md:text-sm max-md:px-5 md:px-10 duration-300 h-0">
           We mostly work on a fixed-bid basis for our projects, focusing on a
           select few clients at a time. To provide an accurate estimate, we need
           a clear understanding of your requirements, project scope,
@@ -573,21 +676,15 @@ Counter section
 
       <!-- FAQ Item 3 -->
       <div
-        class="accordion-item overflow-hidden bg-backgroundBody dark:bg-dark border border-backgroundBody dark:border-[#151515] duration-300"
-      >
-        <div
-          class="accordion-header relative cursor-pointer py-5 md:py-[35px] max-md:px-5 md:px-10"
-        >
+        class="accordion-item overflow-hidden bg-backgroundBody dark:bg-dark border border-backgroundBody dark:border-[#151515] duration-300">
+        <div class="accordion-header relative cursor-pointer py-5 md:py-[35px] max-md:px-5 md:px-10">
           <h3
-            class="text-xl md:text-[25px] font-normal sm:font-medium md:tracking-normal max-md:inline-block max-lg:pr-8"
-          >
+            class="text-xl md:text-[25px] font-normal sm:font-medium md:tracking-normal max-md:inline-block max-lg:pr-8">
             Do you provide white labeled services?
           </h3>
           <div class="accordion-header-icon dark:border-dark"></div>
         </div>
-        <p
-          class="accordion-body max-md:text-sm max-md:px-5 md:px-10 duration-300 h-0"
-        >
+        <p class="accordion-body max-md:text-sm max-md:px-5 md:px-10 duration-300 h-0">
           Yes, we are equipped to handle projects of any size, from small
           startups to large enterprises, tailoring our approach to meet your
           specific needs.
@@ -596,21 +693,15 @@ Counter section
 
       <!-- FAQ Item 4 -->
       <div
-        class="accordion-item overflow-hidden bg-backgroundBody dark:bg-dark border border-backgroundBody dark:border-[#151515] duration-300"
-      >
-        <div
-          class="accordion-header relative cursor-pointer py-5 md:py-[35px] max-md:px-5 md:px-10"
-        >
+        class="accordion-item overflow-hidden bg-backgroundBody dark:bg-dark border border-backgroundBody dark:border-[#151515] duration-300">
+        <div class="accordion-header relative cursor-pointer py-5 md:py-[35px] max-md:px-5 md:px-10">
           <h3
-            class="text-xl md:text-[25px] font-normal sm:font-medium md:tracking-normal max-md:inline-block max-lg:pr-8"
-          >
+            class="text-xl md:text-[25px] font-normal sm:font-medium md:tracking-normal max-md:inline-block max-lg:pr-8">
             Do you work with other agencies?
           </h3>
           <div class="accordion-header-icon dark:border-dark"></div>
         </div>
-        <p
-          class="accordion-body max-md:text-sm max-md:px-5 md:px-10 duration-300 h-0"
-        >
+        <p class="accordion-body max-md:text-sm max-md:px-5 md:px-10 duration-300 h-0">
           We value collaboration and will keep you updated at every stage. Your
           input is crucial to ensure we align with your vision and goals.
         </p>
@@ -618,21 +709,15 @@ Counter section
 
       <!-- FAQ Item 5 -->
       <div
-        class="accordion-item overflow-hidden bg-backgroundBody dark:bg-dark border border-backgroundBody dark:border-[#151515] duration-300"
-      >
-        <div
-          class="accordion-header relative cursor-pointer py-5 md:py-[35px] max-md:px-5 md:px-10"
-        >
+        class="accordion-item overflow-hidden bg-backgroundBody dark:bg-dark border border-backgroundBody dark:border-[#151515] duration-300">
+        <div class="accordion-header relative cursor-pointer py-5 md:py-[35px] max-md:px-5 md:px-10">
           <h3
-            class="text-xl md:text-[25px] font-normal sm:font-medium md:tracking-normal max-md:inline-block max-lg:pr-8"
-          >
+            class="text-xl md:text-[25px] font-normal sm:font-medium md:tracking-normal max-md:inline-block max-lg:pr-8">
             Do you work with Webflow templates?
           </h3>
           <div class="accordion-header-icon dark:border-dark"></div>
         </div>
-        <p
-          class="accordion-body max-md:text-sm max-md:px-5 md:px-10 duration-300 h-0"
-        >
+        <p class="accordion-body max-md:text-sm max-md:px-5 md:px-10 duration-300 h-0">
           Absolutely! We offer ongoing support and maintenance to ensure your
           project runs smoothly after launch.
         </p>
@@ -646,134 +731,40 @@ Counter section
 <!--=====================================
    CTA Section
 ======================================-->
-<section class="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] relative">
+<section id="contact" class="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] relative">  
   <div class="container">
     <!-- CTA Heading -->
-    <h2
-      class="text-center xl:text-[96px] font-normal xl:leading-[1.1] xl:tracking-[-2.88px]"
-    >
-      Request a
-      <div
-        class="cta-slider-container max-sm:block sm:inline-block max-sm:mb-5 translate-y-2 sm:translate-y-[20px] max-sm:mt-2.5"
-      >
+    <h2 class="text-center xl:text-[96px] font-normal xl:leading-[1.1] xl:tracking-[-2.88px]">
+      Ready to
+      <div class="cta-slider-container max-sm:block sm:inline-block max-sm:mb-5 translate-y-2 sm:translate-y-[20px] max-sm:mt-2.5">
         <div class="cta-inline-slider">
           <div class="slide">
-            <img src="images/images/industries/automobiles.png" alt="Slide 1" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/automobiles.png" alt="Slide 1" />
           </div>
           <div class="slide">
-            <img src="images/images/industries/aerospace.png" alt="Slide 2" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/aerospace.png" alt="Slide 2" />
           </div>
           <div class="slide">
-            <img src="images/images/industries/medical.png" alt="Slide 3" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/logistics.png" alt="Slide 3" />
           </div>
         </div>
       </div>
-      Free
-      <span class="font-instrument sm:mt-10 italic block max-md:inline-block"
-        >Consultation</span
-      >
+      grow
+      <span class="font-instrument sm:mt-10 italic block max-md:inline-block">your business?</span>
     </h2>
 
     <!-- CTA Buttons -->
-    <div class="col-span-full mx-auto sm:mt-14 flex justify-center">
-        <button type="submit" class="rv-button rv-button-sm !bg-red-500 !text-white"
-          style="background-color: #ef4444 !important; color: white !important;">
-          <div class="rv-button-top">
-            <span>Send Message</span>
-          </div>
-          <div class="rv-button-bottom">
-            <span>Send Message</span>
-          </div>
-        </button>
-      </div>
-  </div>
-</section>
-
-<!--=====================================
-   Contact Page Header Section
-======================================-->
-
-<section id="contact" class="pt-28 md:pt-[250px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] relative overflow-hidden">
-  <!-- Gradient Background -->
-  <div id="hero-gradient-wrapper"
-    class="absolute w-[44%] lg:w-[40%] h-[44%] lg:h-[40%] top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 -z-10 blur-[60px] max-sm:scale-125 md:scale-[0.72]">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/images/hero-gradient-background.png"
-      alt="hero-gradient-background" id="hero-gradient"
-      class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2" />
-  </div>
-
-  <!-- Header Content -->
-  <div class="container">
-    <div class="text-center reveal-me">
-      <div class="rv-badge reveal-me">
-        <span class="rv-badge-text">Contact Us</span>
-      </div>
-      <h1 class="mt-3 lg:mt-8 mb-4 md:mb-7">Let's Work Together</h1>
-      <p class="">Discover our innovative, cutting-edge no-code websites, crafted to effortlessly <br> captivate and
-        engage your visitors.</p>
+    <div class="col-span-full mx-auto sm:mt-14 flex justify-center mb-10">
+      <a href="<?php echo esc_url(home_url('/contact')); ?>" class="rv-button rv-button-sm !bg-red-500 !text-white"
+        style="background-color: #ef4444 !important; color: white !important;">
+        <div class="rv-button-top">
+          <span>Contact Us</span>
+        </div>
+        <div class="rv-button-bottom">
+          <span>Contact Us</span>
+        </div>
+      </a>
     </div>
-  </div>
-</section>
-
-<!-- Form Section -->
-
-<section class="pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px]">
-  <div class="container">
-    <!-- Contact Form -->
-    <form class="grid grid-cols-1 md:grid-cols-2 gap-[30px] max-w-[800px] mx-auto reveal-me" method="post"
-      action="<?php echo esc_url(admin_url('admin-post.php')); ?>">
-      <input type="hidden" name="action" value="lijmec_contact_form">
-      <?php wp_nonce_field('lijmec_contact_form', 'lijmec_contact_nonce'); ?>
-
-      <!-- Full Name Field -->
-      <div class="md:col-span-full">
-        <label for="name" class="text-2xl leading-[1.2] tracking-[-0.48px] text-secondary dark:text-backgroundBody">
-          Full Name
-        </label>
-        <input type="text" name="name" id="name" placeholder="Enter your full name" required
-          class="py-4 pl-5 bg-backgroundBody dark:bg-dark focus:outline-none focus:border-primary border dark:border-dark w-full text-colorText dark:text-backgroundBody/70 text-xl leading-[1.4] tracking-[0.4px] mt-3" />
-      </div>
-
-      <!-- Place Field -->
-      <div>
-        <label for="place" class="text-2xl leading-[1.2] tracking-[-0.48px] text-secondary dark:text-backgroundBody">
-          Place
-        </label>
-        <input type="text" name="place" id="place" placeholder="Enter your place"
-          class="py-4 pl-5 bg-backgroundBody dark:bg-dark focus:outline-none focus:border-primary border dark:border-dark w-full text-colorText dark:text-backgroundBody/70 text-xl leading-[1.4] tracking-[0.4px] mt-3" />
-      </div>
-
-      <!-- Email Field -->
-      <div>
-        <label for="email" class="text-2xl leading-[1.2] tracking-[-0.48px] text-secondary dark:text-backgroundBody">
-          Email
-        </label>
-        <input type="email" name="email" id="email" placeholder="Enter your email" required
-          class="py-4 pl-5 bg-backgroundBody dark:bg-dark focus:outline-none focus:border-primary border dark:border-dark w-full text-colorText dark:text-backgroundBody/70 text-xl leading-[1.4] tracking-[0.4px] mt-3" />
-      </div>
-
-      <!-- Message -->
-      <div class="md:col-span-full">
-        <label for="message" class="text-2xl leading-[1.2] tracking-[-0.48px] text-secondary dark:text-backgroundBody">
-          Message
-        </label>
-        <textarea name="message" id="message" placeholder="Enter your message" rows="5"
-          class="py-4 pl-5 bg-backgroundBody dark:bg-dark focus:outline-none focus:border-primary border dark:border-dark w-full text-colorText dark:text-backgroundBody/70 text-xl leading-[1.4] tracking-[0.4px] mt-3"></textarea>
-      </div>
-
-      <!-- Submit Button -->
-      <div class="col-span-full mx-auto sm:mt-14">
-        <button type="submit" class="rv-button rv-button-sm !bg-red-500 !text-white"
-          style="background-color: #ef4444 !important; color: white !important;">
-          <div class="rv-button-top">
-            <span>Send Message</span>
-          </div>
-          <div class="rv-button-bottom">
-            <span>Send Message</span>
-          </div>
-        </button>
-      </div>
-    </form>
   </div>
 </section>
 

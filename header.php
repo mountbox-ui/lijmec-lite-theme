@@ -122,11 +122,30 @@
         -webkit-backdrop-filter: blur(16px);
       "></div>
     </div>
-    <nav class="z-[1000] absolute w-full top-0 left-0 px-5 sm:px-8 pt-1 sm:pt-5 nav-top" aria-label="Main navigation">
+    <nav class="z-[1000] absolute w-full top-0 left-0 pt-1 sm:pt-5 nav-top" aria-label="Main navigation">
       <div class="flex justify-between">
         <a href="<?php echo esc_url(home_url('/')); ?>">
           <?php lijmec_custom_logo(); ?>
         </a>
+
+        <div class="flex items-center gap-x-10">
+          <ul class="flex items-center gap-x-10 text-white font-medium uppercase hidden lg:flex">
+            <li><a href="#about-us" class="lenis-scroll-to hover:text-gray-300 transition-colors">About</a></li>
+            <li><a href="#why-choose-us" class="lenis-scroll-to hover:text-gray-300 transition-colors">Why Choose Us</a></li>
+            <li><a href="#what-we-offer" class="lenis-scroll-to hover:text-gray-300 transition-colors">What We Offer</a></li>
+          </ul>
+          <div class="flex items-center gap-x-10 text-white font-medium hidden lg:flex">
+            <a href="<?php echo esc_url(home_url('/contact')); ?>" class="rv-button rv-button-sm !bg-red-500 !text-white"
+                style="background-color: #ef4444 !important; color: white !important;">
+              <div class="rv-button-top">
+                <span>Contact Us</span>
+              </div>
+              <div class="rv-button-bottom">
+                <span>Contact Us</span>
+              </div>
+            </a>
+          </div>
+          </div>
       </div>
     </nav>
   </header>
