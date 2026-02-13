@@ -41,7 +41,7 @@ get_header();
       </h1>
     </div>
 
-    <p class="mt-6 md:mt-10 max-w-[770px] reveal-me text-lg text-colorText/70 dark:text-white/70">
+    <p class="mt-6 md:mt-10 max-w-[770px] reveal-me text-2xl md:text-3xl text-colorText/70 dark:text-white/70">
       Customized wiring and cable harness solutions designed for performance, reliability, and optimized turnaround.
     </p>
   </div>
