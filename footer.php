@@ -10,7 +10,7 @@
           </div>
 
           <div
-            class="border-t dark:border-dark mt-10 pt-5 flex flex-col sm:flex-row gap-3 sm:gap-0 justify-between text-left">
+            class="border-t dark:border-dark mt-10 pt-5 flex flex-col sm:flex-row gap-3 sm:gap-0 justify-between text-center md:text-left">
             <p>
               <?php printf(__('&copy; %s %s. All rights Reserved', 'lijmec'), date('Y'), get_bloginfo('name')); ?>
             </p>

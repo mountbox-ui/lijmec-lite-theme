@@ -871,6 +871,10 @@ a {
   bottom: 1rem;
 }
 
+.bottom-5 {
+  bottom: 1.25rem;
+}
+
 .bottom-6 {
   bottom: 1.5rem;
 }
@@ -917,6 +921,10 @@ a {
 
 .left-11 {
   left: 2.75rem;
+}
+
+.left-3 {
+  left: 0.75rem;
 }
 
 .left-4 {

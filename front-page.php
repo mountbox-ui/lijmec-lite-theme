@@ -16,25 +16,23 @@ get_header();
       class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2" />
   </div>
 
-  <div class="max-w-[1440px] pt-28 md:pt-[180px] pb-14 md:pb-16 mx-auto relative z-10">
+  <div class="max-w-[1440px] pt-28 md:pt-[180px] pb-14 md:pb-16 mx-auto relative z-10 px-5 md:px-10 xl:px-0">
     <div class="reveal-me">
       <h1
-        class="xl:text-[96px] font-semibold xl:leading-[1.1] xl:tracking-[-2.88px] max-lg:text-center text-colorText dark:text-white">
+        class="xl:text-[96px] font-semibold xl:leading-[1.1] xl:tracking-[-2.88px] text-left text-colorText dark:text-white">
         Precision Wire
-        <div
-          class="cta-slider-container max-sm:block sm:inline-block max-sm:mb-7 translate-y-5 h-[100px] overflow-hidden align-bottom align-text-bottom relative top-2"
-          id="cta-img">
+        <div class="cta-slider-container max-sm:block sm:inline-block max-sm:mb-7 translate-y-5 h-[100px] overflow-hidden align-bottom align-text-bottom relative top-2" id="cta-img">
           <div class="cta-inline-slider">
-            <div class="slide h-[100px] flex items-center justify-center">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/images/agent/01.jpg" alt="Slide 1"
+            <div class="slide h-[100px] flex items-center justify-start sm:justify-center">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/images/hero-img/title-img-1.jpg" alt="Slide 1"
                 class="h-[80px] w-auto rounded-full object-cover" />
             </div>
-            <div class="slide h-[100px] flex items-center justify-center">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/images/agent/02.jpg" alt="Slide 2"
+            <div class="slide h-[100px] flex items-center justify-start sm:justify-center">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/images/hero-img/title-img-2.jpg" alt="Slide 2"
                 class="h-[80px] w-auto rounded-full object-cover" />
             </div>
-            <div class="slide h-[100px] flex items-center justify-center">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/images/agent/03.jpg" alt="Slide 3"
+            <div class="slide h-[100px] flex items-center justify-start sm:justify-center">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/images/hero-img/title-img-3.jpg" alt="Slide 3"
                 class="h-[80px] w-auto rounded-full object-cover" />
             </div>
           </div>
@@ -43,7 +41,7 @@ get_header();
       </h1>
     </div>
 
-    <p class="mt-6 md:mt-10 max-w-[770px] max-lg:mx-auto reveal-me text-lg text-colorText/70 dark:text-white/70">
+    <p class="mt-6 md:mt-10 max-w-[770px] reveal-me text-lg text-colorText/70 dark:text-white/70">
       Customized wiring and cable harness solutions designed for performance, reliability, and optimized turnaround.
     </p>
   </div>
@@ -61,28 +59,28 @@ get_header();
         <div class="z-50 flex gap-5 w-fit flex-nowrap whitespace-nowrap will-change-transform marquee-inner reveal-me">
           <figure
             class="marquee-part flex items-center justify-center size-[370px] z-50 flex-shrink-0 overflow-hidden rounded-xl shadow-lg">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/automobiles.png"
-              alt="images" class="w-full h-full object-cover" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/automobiles.png" alt="images"
+              class="w-full h-full object-cover" />
           </figure>
           <figure
             class="marquee-part flex items-center justify-center z-50 size-[370px] flex-shrink-0 overflow-hidden rounded-xl shadow-lg">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/aerospace.png"
-              alt="images" class="w-full h-full object-cover" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/aerospace.png" alt="images"
+              class="w-full h-full object-cover" />
           </figure>
           <figure
             class="marquee-part flex items-center justify-center z-50 size-[370px] flex-shrink-0 overflow-hidden rounded-xl shadow-lg">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/logistics.png"
-              alt="images" class="w-full h-full object-cover" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/logistics.png" alt="images"
+              class="w-full h-full object-cover" />
           </figure>
           <figure
             class="marquee-part flex items-center justify-center z-50 size-[370px] flex-shrink-0 overflow-hidden rounded-xl shadow-lg">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/defence.png"
-              alt="images" class="w-full h-full object-cover" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/defence.png" alt="images"
+              class="w-full h-full object-cover" />
           </figure>
           <figure
             class="marquee-part flex items-center justify-center z-50 size-[370px] flex-shrink-0 overflow-hidden rounded-xl shadow-lg">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/medical.png"
-              alt="images" class="w-full h-full object-cover" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/medical.png" alt="images"
+              class="w-full h-full object-cover" />
           </figure>
         </div>
       </div>
@@ -149,7 +147,7 @@ Counter section
 what we offer-v3 section 
 ======================= -->
 
-<section
+<section id="what-we-offer"
   class="pt-28 md:pt-[250px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] flex flex-col gap-y-10 gap-x-5 lg:flex-row justify-between max-w-[1440px] mx-auto">
   <div>
     <!-- Section Header -->
@@ -161,7 +159,7 @@ what we offer-v3 section
         What We
         <i class="font-instrument"> Offer </i>
       </h2>
-      <p class="text-appear">
+      <p class="text-appear px-5 md:px-0">
         Comprehensive wire harness solutions from concept to completion
       </p>
     </div>
@@ -169,7 +167,7 @@ what we offer-v3 section
     <!-- content Area -->
 
     <article>
-      <div class="flex flex-col md:flex-row max-lg:flex-wrap mb-[30px] gap-[30px] reveal-me">
+      <div class="flex flex-col md:flex-row max-lg:flex-wrap mb-[30px] gap-[30px] reveal-me px-5 md:px-0">
         <!--  -->
         <div class="border dark:border-dark flex-1 px-[30px] py-20">
           <span>
@@ -246,8 +244,8 @@ Service Section
 
 <!-- <section class="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]">
     <div class="container"> -->
-        <!-- Section Header -->
-        <!-- <div class="text-center mb-8 md:mb-14">
+<!-- Section Header -->
+<!-- <div class="text-center mb-8 md:mb-14">
             <div class="rv-badge reveal-me">
                 <span class="rv-badge-text">what we offer</span>
             </div>
@@ -257,16 +255,16 @@ Service Section
             <p class="text-appear">Comprehensive wire harness solutions from concept to completion</p>
         </div>
     </div> -->
-    <!-- Main Section  -->
+<!-- Main Section  -->
 
-    <!-- <div
+<!-- <div
         class="flex justify-center flex-wrap max-lg:gap-5 px-5 xl:px-5 [&>*]:border-y dark:[&>*]:border-y-dark [&>*:not(:last-child)]:border-l dark:[&>*:not(:last-child)]:border-l-dark [&>*:last-child]:border-x dark:[&>*:last-child]:border-x-dark max-xl:[&>*:first-child]:border-r dark:max-xl:[&>*:first-child]:border-dark max-xl:[&>*:nth-child(2)]:border-r dark:max-xl:[&>*:nth-child(2)]:border-dark max-2xl:[&>*:nth-child(3)]:border-r dark:max-2xl:[&>*:nth-child(3)]:border-dark"> -->
-        <!-- Service Card1 -->
-        <!-- <div
+<!-- Service Card1 -->
+<!-- <div
             class="relative group reveal-me overflow-hidden w-full md:w-[calc(50%-10px)] lg:w-[calc(33.333%-14px)] xl:w-[390px] min-h-[410px]">
             <div> -->
-                <!-- Front Side -->
-                <!-- <div
+<!-- Front Side -->
+<!-- <div
                     class="absolute w-full h-full px-[30px] py-10 flex-1 transition-all duration-700 translate-y-0 group-hover:-translate-y-full opacity-100 group-hover:opacity-0">
                     <span>
                       <img src="<?php echo get_template_directory_uri(); ?>/images/images/what-we-offer/custom-wire.svg" alt="">
@@ -277,8 +275,8 @@ Service Section
                     <p>Tailored engineering services built around your product specs.</p>
                 </div> -->
 
-                <!-- Hover Back Side -->
-                <!-- <div
+<!-- Hover Back Side -->
+<!-- <div
                     class="absolute w-full h-full flex-1 px-[30px] py-12 z-10 bg-secondary dark:bg-backgroundBody transition-all duration-700 translate-y-full group-hover:translate-y-0 group-hover:inset-0">
                     <span>
                         <img src="<?php echo get_template_directory_uri(); ?>/images/images/what-we-offer/custom-wire-black.svg" alt="">
@@ -288,12 +286,12 @@ Service Section
                 </div>
             </div>
         </div> -->
-        <!-- Service Card2 -->
-        <!-- <div
+<!-- Service Card2 -->
+<!-- <div
             class="relative group reveal-me overflow-hidden w-full md:w-[calc(50%-10px)] lg:w-[calc(33.333%-14px)] xl:w-[390px] min-h-[410px]">
             <div> -->
-                <!-- Front Side -->
-                <!-- <div class="absolute w-full h-full px-[30px] py-10 flex-1 transition-all duration-700 translate-y-0 group-hover:-translate-y-full opacity-100 group-hover:opacity-0">
+<!-- Front Side -->
+<!-- <div class="absolute w-full h-full px-[30px] py-10 flex-1 transition-all duration-700 translate-y-0 group-hover:-translate-y-full opacity-100 group-hover:opacity-0">
                     <span>
                         <img src="<?php echo get_template_directory_uri(); ?>/images/images/what-we-offer/wire-prototyping.svg" alt="">
                     </span>
@@ -301,8 +299,8 @@ Service Section
                     <p>Rapid development and rigorous testing for precision and reliability.</p>
                 </div> -->
 
-                <!-- Hover Back Side -->
-                <!-- <div
+<!-- Hover Back Side -->
+<!-- <div
                     class="absolute w-full h-full flex-1 px-[30px] py-12 z-10 bg-secondary dark:bg-backgroundBody transition-all duration-700 translate-y-full group-hover:translate-y-0 group-hover:inset-0">
                     <span>
                         <img src="<?php echo get_template_directory_uri(); ?>/images/images/what-we-offer/wire-prototyping-black.svg" alt="">
@@ -319,15 +317,15 @@ Service Section
         </div>
     </div> -->
 
-    <!-- second Card Container -->
-    <!-- <div
+<!-- second Card Container -->
+<!-- <div
         class="flex max-lg:mt-5 justify-center flex-wrap max-lg:gap-5 px-5 xl:px-5 max-lg:[&>*]:border-y max-lg:dark:[&>*]:border-y-dark lg:[&>*]:border-b lg:dark:[&>*]:border-b-dark [&>*:not(:last-child)]:border-l dark:[&>*:not(:last-child)]:border-l-dark [&>*:last-child]:border-x dark:[&>*:last-child]:border-x-dark max-xl:[&>*:first-child]:border-r dark:max-xl:[&>*:first-child]:border-dark max-xl:[&>*:nth-child(2)]:border-r dark:max-xl:[&>*:nth-child(2)]:border-dark max-2xl:[&>*:nth-child(3)]:border-r dark:max-2xl:[&>*:nth-child(3)]:border-dark"> -->
-        <!-- Service Card -->
-        <!-- <div
+<!-- Service Card -->
+<!-- <div
             class="relative group reveal-me overflow-hidden w-full md:w-[calc(50%-10px)] lg:w-[calc(33.333%-14px)] xl:w-[390px] min-h-[410px]">
             <div> -->
-                <!-- Front Side -->
-                <!-- <div
+<!-- Front Side -->
+<!-- <div
                     class="absolute w-full h-full px-[30px] py-10 flex-1 transition-all duration-700 translate-y-0 group-hover:-translate-y-full opacity-100 group-hover:opacity-0">
                     <span>
                         <img src="<?php echo get_template_directory_uri(); ?>/images/images/what-we-offer/wire-manufacturing.svg" alt="">
@@ -336,8 +334,8 @@ Service Section
                     <p>From low volume to high volume runs — high standards every step.</p>
                 </div> -->
 
-                <!-- Hover Back Side -->
-                <!-- <div
+<!-- Hover Back Side -->
+<!-- <div
                     class="absolute w-full h-full flex-1 px-[30px] py-12 z-10 bg-secondary dark:bg-backgroundBody transition-all duration-700 translate-y-full group-hover:translate-y-0 group-hover:inset-0">
                     <span>
                         <img src="<?php echo get_template_directory_uri(); ?>/images/images/what-we-offer/wire-manufacturing-black.svg" alt="">
@@ -347,12 +345,12 @@ Service Section
                 </div>
             </div>
         </div> -->
-        <!-- Service Card -->
-        <!-- <div
+<!-- Service Card -->
+<!-- <div
             class="relative group reveal-me overflow-hidden w-full md:w-[calc(50%-10px)] lg:w-[calc(33.333%-14px)] xl:w-[390px] min-h-[410px]">
             <div> -->
-                <!-- Front Side -->
-                <!-- <div
+<!-- Front Side -->
+<!-- <div
                     class="absolute w-full h-full px-[30px] py-10 flex-1 transition-all duration-700 translate-y-0 group-hover:-translate-y-full opacity-100 group-hover:opacity-0">
                     <span>
                         <img src="<?php echo get_template_directory_uri(); ?>/images/images/what-we-offer/wire-quality.svg" alt="">
@@ -361,8 +359,8 @@ Service Section
                     <p>Industry-aligned quality cycles and inspection protocols.</p>
                 </div> -->
 
-                <!-- Hover Back Side -->
-                <!-- <div
+<!-- Hover Back Side -->
+<!-- <div
                     class="absolute w-full h-full flex-1 px-[30px] py-12 z-10 bg-secondary dark:bg-backgroundBody transition-all duration-700 translate-y-full group-hover:translate-y-0 group-hover:inset-0">
                     <span>
                         <span>
@@ -383,7 +381,8 @@ Service Section
 why choose us section 
 ======================= -->
 
-<section id="why-choose-us" class="pt-28 md:pt-[250px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] relative overflow-hidden">
+<section id="why-choose-us"
+  class="pt-28 md:pt-[250px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] relative overflow-hidden">
   <div class="container">
     <!-- Section Header -->
     <div class="text-center mb-8 md:mb-14">
@@ -463,7 +462,7 @@ Industries we cater to section
             alt="Automobile & EV Sector"
             class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3 object-cover"
             width="370" height="238" />
-          <div class=" absolute top-5 left-6 z-10 bg-black backdrop-blur-sm px-4 py-2 rounded-full">
+          <div class=" absolute bottom-4 left-3 z-10 bg-black backdrop-blur-sm px-4 py-2 rounded-full">
             <span class=" text-white uppercase">Mobility</span>
           </div>
         </figure>
@@ -474,9 +473,9 @@ Industries we cater to section
               Automobile & EV Sector
             </h3>
             <p class="py-3 leading-[1.6] text-base">
-            Our cutting-edge machinery ensures every harness meets stringent
-            industry standards, guaranteeing reliable and top-tier performance.
-          </p>
+              Our cutting-edge machinery ensures every harness meets stringent
+              industry standards, guaranteeing reliable and top-tier performance.
+            </p>
           </div>
         </div>
       </a>
@@ -490,7 +489,7 @@ Industries we cater to section
             alt="Aviation & Aerospace"
             class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3 object-cover"
             width="370" height="238" />
-          <div class=" absolute top-5 left-6 z-10 bg-black backdrop-blur-sm px-4 py-2 rounded-full">
+          <div class=" absolute bottom-4 left-3 z-10 bg-black backdrop-blur-sm px-4 py-2 rounded-full">
             <span class=" text-white uppercase">Aerospace</span>
           </div>
         </figure>
@@ -501,9 +500,9 @@ Industries we cater to section
               Aviation & Aerospace
             </h3>
             <p class="py-3 leading-[1.6] text-base">
-            Our cutting-edge machinery ensures every harness meets stringent
-            industry standards, guaranteeing reliable and top-tier performance.
-          </p>
+              Our cutting-edge machinery ensures every harness meets stringent
+              industry standards, guaranteeing reliable and top-tier performance.
+            </p>
           </div>
         </div>
       </a>
@@ -517,7 +516,7 @@ Industries we cater to section
             alt="Defence & Strategic Systems"
             class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3 object-cover"
             width="370" height="238" />
-          <div class=" absolute top-5 left-6 z-10 bg-black backdrop-blur-sm px-4 py-2 rounded-full">
+          <div class=" absolute bottom-4 left-3 z-10 bg-black backdrop-blur-sm px-4 py-2 rounded-full">
             <span class=" text-white uppercase">Defence</span>
           </div>
         </figure>
@@ -528,9 +527,9 @@ Industries we cater to section
               Defence & Strategic Systems
             </h3>
             <p class="py-3 leading-[1.6] text-base">
-            Our cutting-edge machinery ensures every harness meets stringent
-            industry standards, guaranteeing reliable and top-tier performance.
-          </p>
+              Our cutting-edge machinery ensures every harness meets stringent
+              industry standards, guaranteeing reliable and top-tier performance.
+            </p>
           </div>
         </div>
       </a>
@@ -544,7 +543,7 @@ Industries we cater to section
             alt="Logistics & Infrastructure"
             class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3 object-cover"
             width="370" height="238" />
-          <div class=" absolute top-5 left-6 z-10 bg-black backdrop-blur-sm px-4 py-2 rounded-full">
+          <div class=" absolute bottom-4 left-3 z-10 bg-black backdrop-blur-sm px-4 py-2 rounded-full">
             <span class=" text-white uppercase">Logistics</span>
           </div>
         </figure>
@@ -555,9 +554,9 @@ Industries we cater to section
               Logistics & Infrastructure
             </h3>
             <p class="py-3 leading-[1.6] text-base">
-            Our cutting-edge machinery ensures every harness meets stringent
-            industry standards, guaranteeing reliable and top-tier performance.
-          </p>
+              Our cutting-edge machinery ensures every harness meets stringent
+              industry standards, guaranteeing reliable and top-tier performance.
+            </p>
           </div>
         </div>
       </a>
@@ -571,7 +570,7 @@ Industries we cater to section
             alt="Medical Devices & Equipment"
             class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3 object-cover"
             width="370" height="238" />
-          <div class=" absolute top-5 left-6 z-10 bg-black backdrop-blur-sm px-4 py-2 rounded-full">
+          <div class=" absolute bottom-4 left-3 z-10 bg-black backdrop-blur-sm px-4 py-2 rounded-full">
             <span class=" text-white uppercase">Medical</span>
           </div>
         </figure>
@@ -582,9 +581,9 @@ Industries we cater to section
               Medical Devices & Equipment
             </h3>
             <p class="py-3 leading-[1.6] text-base">
-            Our cutting-edge machinery ensures every harness meets stringent
-            industry standards, guaranteeing reliable and top-tier performance.
-          </p>
+              Our cutting-edge machinery ensures every harness meets stringent
+              industry standards, guaranteeing reliable and top-tier performance.
+            </p>
           </div>
         </div>
       </a>
@@ -598,7 +597,7 @@ Industries we cater to section
             alt="High-Power Electrical"
             class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3 object-cover"
             width="370" height="238" />
-          <div class=" absolute top-5 left-6 z-10 bg-black backdrop-blur-sm px-4 py-2 rounded-full">
+          <div class=" absolute bottom-4 left-3 z-10 bg-black backdrop-blur-sm px-4 py-2 rounded-full">
             <span class=" text-white uppercase">Industrial</span>
           </div>
         </figure>
@@ -609,9 +608,9 @@ Industries we cater to section
               High-Power Electrical Systems
             </h3>
             <p class="py-3 leading-[1.6] text-base">
-            Our cutting-edge machinery ensures every harness meets stringent
-            industry standards, guaranteeing reliable and top-tier performance.
-          </p>
+              Our cutting-edge machinery ensures every harness meets stringent
+              industry standards, guaranteeing reliable and top-tier performance.
+            </p>
           </div>
         </div>
       </a>
@@ -627,7 +626,8 @@ Industries we cater to section
   class="pt-16 md:pt-20 lg:pt-[98px] xl:pt-[120px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] relative @@faqSpacing">
   <div
     class="absolute scale-y-[3.5] sm:scale-y-[2.2] md:scale-y-[1.6] xl:scale-y-[1.4] scale-x-[1.7] left-1/2 top-1/2 max-md:-translate-y-[45%] md:-translate-y-1/2 -translate-x-1/2 -z-30">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/images/hero-gradient-background-02.png" alt="gradient-bg" />
+    <img src="<?php echo get_template_directory_uri(); ?>/images/images/hero-gradient-background-02.png"
+      alt="gradient-bg" />
   </div>
   <div class="container">
     <!-- FAQ Section Title -->
@@ -731,21 +731,25 @@ Industries we cater to section
 <!--=====================================
    CTA Section
 ======================================-->
-<section id="contact" class="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] relative">  
+<section id="contact" class="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] relative">
   <div class="container">
     <!-- CTA Heading -->
     <h2 class="text-center xl:text-[96px] font-normal xl:leading-[1.1] xl:tracking-[-2.88px]">
       Ready to
-      <div class="cta-slider-container max-sm:block sm:inline-block max-sm:mb-5 translate-y-2 sm:translate-y-[20px] max-sm:mt-2.5">
+      <div
+        class="cta-slider-container max-sm:block sm:inline-block max-sm:mb-5 translate-y-2 sm:translate-y-[20px] max-sm:mt-2.5">
         <div class="cta-inline-slider">
           <div class="slide">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/automobiles.png" alt="Slide 1" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/automobiles.png"
+              alt="Slide 1" />
           </div>
           <div class="slide">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/aerospace.png" alt="Slide 2" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/aerospace.png"
+              alt="Slide 2" />
           </div>
           <div class="slide">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/logistics.png" alt="Slide 3" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/logistics.png"
+              alt="Slide 3" />
           </div>
         </div>
       </div>
