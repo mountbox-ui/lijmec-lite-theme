@@ -455,8 +455,8 @@ Industries we cater to section
 
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px] px-4 md:px-[30px]">
     <!-- Card-1: Automobile & EV Sector -->
-    <article class="blog-card border dark:border-dark p-2.5 group relative cursor-pointer reveal-me">
-      <a href="#" class="w-full">
+    <article class="blog-card border dark:border-dark p-2.5 group relative reveal-me">
+      <div class="w-full">
         <figure class="overflow-hidden h-[238px] relative">
           <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/automobiles.png"
             alt="Automobile & EV Sector"
@@ -478,12 +478,12 @@ Industries we cater to section
             </p>
           </div>
         </div>
-      </a>
+      </div>
     </article>
 
     <!-- Card-2: Aviation & Aerospace -->
-    <article class="blog-card border dark:border-dark p-2.5 group relative cursor-pointer reveal-me">
-      <a href="#" class="w-full">
+    <article class="blog-card border dark:border-dark p-2.5 group relative reveal-me">
+      <div class="w-full">
         <figure class="overflow-hidden h-[238px] relative">
           <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/aerospace.png"
             alt="Aviation & Aerospace"
@@ -505,12 +505,12 @@ Industries we cater to section
             </p>
           </div>
         </div>
-      </a>
+      </div>
     </article>
 
     <!-- Card-3: Defence & Strategic Systems -->
-    <article class="blog-card border dark:border-dark p-2.5 group relative cursor-pointer reveal-me">
-      <a href="#" class="w-full">
+    <article class="blog-card border dark:border-dark p-2.5 group relative reveal-me">
+      <div class="w-full">
         <figure class="overflow-hidden h-[238px] relative">
           <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/defence.png"
             alt="Defence & Strategic Systems"
@@ -532,12 +532,12 @@ Industries we cater to section
             </p>
           </div>
         </div>
-      </a>
+      </div>
     </article>
 
     <!-- Card-4: Logistics & Infrastructure -->
-    <article class="blog-card border dark:border-dark p-2.5 group relative cursor-pointer reveal-me">
-      <a href="#" class="w-full">
+    <article class="blog-card border dark:border-dark p-2.5 group relative reveal-me">
+      <div class="w-full">
         <figure class="overflow-hidden h-[238px] relative">
           <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/logistics.png"
             alt="Logistics & Infrastructure"
@@ -559,12 +559,12 @@ Industries we cater to section
             </p>
           </div>
         </div>
-      </a>
+      </div>
     </article>
 
     <!-- Card-5: Medical Devices & Equipment -->
-    <article class="blog-card border dark:border-dark p-2.5 group relative cursor-pointer reveal-me">
-      <a href="#" class="w-full">
+    <article class="blog-card border dark:border-dark p-2.5 group relative reveal-me">
+      <div class="w-full">
         <figure class="overflow-hidden h-[238px] relative">
           <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/medical.png"
             alt="Medical Devices & Equipment"
@@ -586,12 +586,12 @@ Industries we cater to section
             </p>
           </div>
         </div>
-      </a>
+      </div>
     </article>
 
     <!-- Card-6: High-Power Electrical -->
-    <article class="blog-card border dark:border-dark p-2.5 group relative cursor-pointer reveal-me">
-      <a href="#" class="w-full">
+    <article class="blog-card border dark:border-dark p-2.5 group relative reveal-me">
+      <div class="w-full">
         <figure class="overflow-hidden h-[238px] relative">
           <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/electrical.png"
             alt="High-Power Electrical"
@@ -613,7 +613,7 @@ Industries we cater to section
             </p>
           </div>
         </div>
-      </a>
+      </div>
     </article>
   </div>
 </section>
@@ -644,15 +644,14 @@ Industries we cater to section
         <div class="accordion-header relative cursor-pointer py-5 md:py-[35px] max-md:px-5 md:px-10">
           <h3
             class="text-xl md:text-[25px] font-normal sm:font-medium md:leading-[25.2px] md:tracking-normal max-md:inline-block max-lg:pr-10">
-            What does it cost to work with you?
+            What does LijMec specialize in?
           </h3>
           <div class="accordion-header-icon dark:border-dark"></div>
         </div>
         <p class="accordion-body max-md:text-sm max-md:px-5 md:px-10 duration-300 h-0">
-          We mostly work on a fixed-bid basis for our projects, focusing on a
-          select few clients at a time. To provide an accurate estimate, we need
-          a clear understanding of your requirements, project scope,
-          deliverables, and timelines.
+          LijMec specializes in manufacturing and supplying industrial machinery
+          and equipment, catering to various sectors with a focus on quality,
+          durability, and performance.
         </p>
       </div>
 
@@ -662,15 +661,14 @@ Industries we cater to section
         <div class="accordion-header relative cursor-pointer py-5 md:py-[35px] max-md:px-5 md:px-10">
           <h3
             class="text-xl md:text-[25px] font-normal sm:font-medium md:tracking-normal max-md:inline-block max-lg:pr-10">
-            How big is your team?
+            What types of products does LijMec offer?
           </h3>
           <div class="accordion-header-icon dark:border-dark"></div>
         </div>
         <p class="accordion-body max-md:text-sm max-md:px-5 md:px-10 duration-300 h-0">
-          We mostly work on a fixed-bid basis for our projects, focusing on a
-          select few clients at a time. To provide an accurate estimate, we need
-          a clear understanding of your requirements, project scope,
-          deliverables, and timelines.
+          The company offers a range of machinery and engineering solutions,
+          including customized equipment designed to meet specific industrial
+          requirements.
         </p>
       </div>
 
@@ -680,14 +678,14 @@ Industries we cater to section
         <div class="accordion-header relative cursor-pointer py-5 md:py-[35px] max-md:px-5 md:px-10">
           <h3
             class="text-xl md:text-[25px] font-normal sm:font-medium md:tracking-normal max-md:inline-block max-lg:pr-8">
-            Do you provide white labeled services?
+            Does LijMec provide customized solutions?
           </h3>
           <div class="accordion-header-icon dark:border-dark"></div>
         </div>
         <p class="accordion-body max-md:text-sm max-md:px-5 md:px-10 duration-300 h-0">
-          Yes, we are equipped to handle projects of any size, from small
-          startups to large enterprises, tailoring our approach to meet your
-          specific needs.
+          Yes, LijMec provides tailored solutions based on client needs,
+          ensuring that the machinery meets exact operational and technical
+          specifications.
         </p>
       </div>
 
@@ -697,13 +695,14 @@ Industries we cater to section
         <div class="accordion-header relative cursor-pointer py-5 md:py-[35px] max-md:px-5 md:px-10">
           <h3
             class="text-xl md:text-[25px] font-normal sm:font-medium md:tracking-normal max-md:inline-block max-lg:pr-8">
-            Do you work with other agencies?
+            How does LijMec ensure product quality?
           </h3>
           <div class="accordion-header-icon dark:border-dark"></div>
         </div>
         <p class="accordion-body max-md:text-sm max-md:px-5 md:px-10 duration-300 h-0">
-          We value collaboration and will keep you updated at every stage. Your
-          input is crucial to ensure we align with your vision and goals.
+          LijMec follows strict quality control processes during manufacturing,
+          using reliable materials and modern production techniques to ensure
+          consistent performance and reliability.
         </p>
       </div>
 
@@ -713,13 +712,15 @@ Industries we cater to section
         <div class="accordion-header relative cursor-pointer py-5 md:py-[35px] max-md:px-5 md:px-10">
           <h3
             class="text-xl md:text-[25px] font-normal sm:font-medium md:tracking-normal max-md:inline-block max-lg:pr-8">
-            Do you work with Webflow templates?
+            How can customers place an order or inquiry?
           </h3>
           <div class="accordion-header-icon dark:border-dark"></div>
         </div>
         <p class="accordion-body max-md:text-sm max-md:px-5 md:px-10 duration-300 h-0">
-          Absolutely! We offer ongoing support and maintenance to ensure your
-          project runs smoothly after launch.
+          Customers can place an order or make an inquiry through the contact
+          form on the website, by phone, or via email. The sales team will
+          respond promptly to discuss requirements and provide detailed
+          information.
         </p>
       </div>
     </div>
