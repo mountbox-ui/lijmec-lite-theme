@@ -20,7 +20,7 @@ get_header();
     <div class="reveal-me">
       <h1
         class="xl:text-[96px] font-semibold xl:leading-[1.1] xl:tracking-[-2.88px] text-left text-colorText dark:text-white">
-        Precision Wire
+        Precision
         <div class="cta-slider-container max-sm:block sm:inline-block max-sm:mb-7 translate-y-5 h-[100px] overflow-hidden align-bottom align-text-bottom relative top-2" id="cta-img">
           <div class="cta-inline-slider">
             <div class="slide h-[100px] flex items-center justify-start sm:justify-center">
@@ -37,7 +37,7 @@ get_header();
             </div>
           </div>
         </div>
-        Harness Engineering for Industries
+       Wire Harness Engineering for Industries
       </h1>
     </div>
 
