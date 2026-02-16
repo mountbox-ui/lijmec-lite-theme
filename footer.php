@@ -11,11 +11,11 @@
 
           <div
             class="border-t dark:border-dark mt-5 pt-5 flex flex-col sm:flex-row gap-3 sm:gap-0 justify-between text-center md:text-left">
-            <p>
+            <p class="footer-text-lijmec">
               <?php printf(__('&copy; %s %s. All rights Reserved', 'lijmec'), date('Y'), get_bloginfo('name')); ?>
             </p>
-            <p>
-              <?php _e('Powered by', 'lijmec'); ?> <a href="https://mountbox.in" target="_blank" rel="noopener">MountBox</a>
+            <p class="footer-text-lijmec">
+              <?php _e('Powered by', 'lijmec'); ?> <a href="https://mountbox.in" target="_blank" rel="noopener" class="footer-text-lijmec">MountBox</a>
             </p>
           </div>
         </div>

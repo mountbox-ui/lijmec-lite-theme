@@ -19,7 +19,7 @@ get_header();
   <div class="max-w-[1440px] pt-28 md:pt-[180px] pb-14 md:pb-16 mx-auto relative z-10 px-5 md:px-10 xl:px-0">
     <div class="reveal-me">
       <h1
-        class="xl:text-[96px] font-semibold xl:leading-[1.1] xl:tracking-[-2.88px] text-left text-colorText dark:text-white">
+        class="xl:text-[96px] font-semibold xl:leading-[1.3] xl:tracking-[-2.88px] text-left text-colorText dark:text-white">
         Precision
         <div class="cta-slider-container max-sm:block sm:inline-block max-sm:mb-7 translate-y-5 h-[100px] overflow-hidden align-bottom align-text-bottom relative top-2" id="cta-img">
           <div class="cta-inline-slider">
@@ -51,12 +51,12 @@ get_header();
       transform: translate3d(-200px, 0px, 0px) scale3d(1, 1, 1) rotateX(30deg)
         rotateY(17deg) rotateZ(342deg) skew(7deg, 359deg);
       transform-style: preserve-3d;
-    " id="skew-Marquee" class="hidden md:block w-[150%] -ml-[25%] max-w-[1600px] mx-auto">
+    " id="skew-Marquee" class="block w-[150%] -ml-[25%] max-w-[1600px] mx-auto">
     <div class="pb-16 lg:pb-48 pt-24">
       <!-- Marquee Wrapper -->
       <div class="relative">
         <!-- Infinite Scroll Container -->
-        <div class="z-50 flex gap-5 w-fit flex-nowrap whitespace-nowrap will-change-transform marquee-inner reveal-me">
+        <div class="z-50 flex gap-5 w-fit flex-nowrap whitespace-nowrap will-change-transform marquee-inner">
           <figure
             class="marquee-part flex items-center justify-center size-[370px] z-50 flex-shrink-0 overflow-hidden rounded-xl shadow-lg">
             <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/automobiles.png" alt="images"
@@ -64,22 +64,22 @@ get_header();
           </figure>
           <figure
             class="marquee-part flex items-center justify-center z-50 size-[370px] flex-shrink-0 overflow-hidden rounded-xl shadow-lg">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/aerospace.png" alt="images"
+            <img src="<?php echo get_template_directory_uri(); ?>/images/images/hero-img/hero-img-1.jpg" alt="images"
               class="w-full h-full object-cover" />
           </figure>
           <figure
             class="marquee-part flex items-center justify-center z-50 size-[370px] flex-shrink-0 overflow-hidden rounded-xl shadow-lg">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/logistics.png" alt="images"
-              class="w-full h-full object-cover" />
-          </figure>
-          <figure
-            class="marquee-part flex items-center justify-center z-50 size-[370px] flex-shrink-0 overflow-hidden rounded-xl shadow-lg">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/defence.png" alt="images"
+            <img src="<?php echo get_template_directory_uri(); ?>/images/images/hero-img/hero-img-2.jpg" alt="images"
               class="w-full h-full object-cover" />
           </figure>
           <figure
             class="marquee-part flex items-center justify-center z-50 size-[370px] flex-shrink-0 overflow-hidden rounded-xl shadow-lg">
             <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/medical.png" alt="images"
+              class="w-full h-full object-cover" />
+          </figure>
+          <figure
+            class="marquee-part flex items-center justify-center z-50 size-[370px] flex-shrink-0 overflow-hidden rounded-xl shadow-lg">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/images/hero-img/hero-img-3.jpg" alt="images"
               class="w-full h-full object-cover" />
           </figure>
         </div>
@@ -88,12 +88,12 @@ get_header();
   </div>
 
   <div id="about-us" class="max-w-[1440px] mx-auto px-7 text-start">
-    <h3 class="reveal-text-2 reveal-me">
+    <h3 class="reveal-text-2 reveal-me max-w-[1080px]">
       LijMec Wire Harness delivers engineered wiring solutions across automotive, aviation, defence,
       logistics, and high-performance industries.
     </h3>
     <p
-      class="mb-10 mt-10 font-normal text-lg md:text-3xl leading-[25.6px] md:leading-[35.6px] tracking-[0.32px] text-black/70 dark:text-backgroundBody/70">
+      class="mb-10 mt-10 font-normal text-lg md:text-3xl leading-[25.6px] md:leading-[35.6px] tracking-[0.32px] text-black/70 dark:text-backgroundBody/70 max-w-[1080px]">
       With state-of-the-art equipment and expert engineers, we design, prototype, validate, and manufacture
       bespoke wire harness systems that meet strict quality standards.
     </p>
@@ -148,7 +148,7 @@ what we offer-v3 section
 ======================= -->
 
 <section id="what-we-offer"
-  class="pt-28 md:pt-[250px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] flex flex-col gap-y-10 gap-x-5 lg:flex-row justify-between max-w-[1440px] mx-auto">
+  class="pt-28 pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] flex flex-col gap-y-10 gap-x-5 lg:flex-row justify-between max-w-[1440px] mx-auto">
   <div>
     <!-- Section Header -->
     <div class="text-center mb-8 md:mb-14">
@@ -167,9 +167,9 @@ what we offer-v3 section
     <!-- content Area -->
 
     <article>
-      <div class="flex flex-col md:flex-row max-lg:flex-wrap mb-[30px] gap-[30px] reveal-me px-5 md:px-0">
+      <div class="flex flex-col md:flex-row max-lg:flex-wrap mb-[30px] gap-[30px] reveal-me px-5 md:px-0 py-5">
         <!--  -->
-        <div class="border dark:border-dark flex-1 px-[30px] py-20">
+        <div class="feature-card flex-1 px-[30px] py-20 group">
           <span>
             <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
               <rect width="60" height="60" class="dark:fill-secondary fill-backgroundBody" />
@@ -186,7 +186,7 @@ what we offer-v3 section
           <p>Tailored engineering services built around your product specs.</p>
         </div>
         <!--  -->
-        <div class="border dark:border-dark flex-1 px-[30px] py-20">
+        <div class="feature-card flex-1 px-[30px] py-20 group">
           <span>
             <svg xmlns="http://www.w3.org/2000/svg" width="61" height="60" viewBox="0 0 61 60" fill="none">
               <rect width="60" height="60" transform="translate(0.333252)"
@@ -202,7 +202,7 @@ what we offer-v3 section
           </p>
         </div>
         <!--  -->
-        <div class="border dark:border-dark flex-1 px-[30px] py-20">
+        <div class="feature-card flex-1 px-[30px] py-20 group">
           <span>
             <svg xmlns="http://www.w3.org/2000/svg" width="61" height="60" viewBox="0 0 61 60" fill="none">
               <rect width="60" height="60" transform="translate(0.666504)"
@@ -217,7 +217,7 @@ what we offer-v3 section
           <p>From low volume to high volume runs — high standards every step.</p>
         </div>
         <!--  -->
-        <div class="border dark:border-dark flex-1 px-[30px] py-20">
+        <div class="feature-card flex-1 px-[30px] py-20 group">
           <span>
             <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
               <rect width="60" height="60" class="dark:fill-secondary fill-backgroundBody" />
@@ -382,7 +382,7 @@ why choose us section
 ======================= -->
 
 <section id="why-choose-us"
-  class="pt-28 md:pt-[250px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] relative overflow-hidden">
+  class="pt-28 pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] relative overflow-hidden">
   <div class="container">
     <!-- Section Header -->
     <div class="text-center mb-8 md:mb-14">
@@ -429,8 +429,8 @@ why choose us section
         </div>
       </div>
       <figure class="md:w-1/2 reveal-me">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/images/why-choose-us/Why-Choose-Us-Img.jpg"
-          alt="Marketing professional" class="w-full h-full" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/images/why-choose-us/Why-Choose-Us-Img-2.png"
+          alt="Why Choose LijMec" class="w-full h-full" />
       </figure>
     </div>
   </div>
@@ -440,7 +440,7 @@ why choose us section
 Industries we cater to section 
 ======================= -->
 
-<section class="pt-28 md:pt-[250px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] overflow-hidden max-w-[1440px] mx-auto">
+<section class="pt-28 pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] overflow-hidden max-w-[1440px] mx-auto">
   <!-- section header -->
   <div class="text-center mb-8 md:mb-16">
     <h2 class="text-appear mb-3">
@@ -473,8 +473,7 @@ Industries we cater to section
               Automobile & EV Sector
             </h3>
             <p class="py-3 leading-[1.6] text-base">
-              Our cutting-edge machinery ensures every harness meets stringent
-              industry standards, guaranteeing reliable and top-tier performance.
+              With advanced automation, our harnesses exceed industry standards for reliable performance.
             </p>
           </div>
         </div>
@@ -500,8 +499,7 @@ Industries we cater to section
               Aviation & Aerospace
             </h3>
             <p class="py-3 leading-[1.6] text-base">
-              Our cutting-edge machinery ensures every harness meets stringent
-              industry standards, guaranteeing reliable and top-tier performance.
+              Our advanced machinery guarantees reliable, top-tier harnesses meeting industry standards.
             </p>
           </div>
         </div>
@@ -527,8 +525,7 @@ Industries we cater to section
               Defence & Strategic Systems
             </h3>
             <p class="py-3 leading-[1.6] text-base">
-              Our cutting-edge machinery ensures every harness meets stringent
-              industry standards, guaranteeing reliable and top-tier performance.
+              Our advanced machinery ensures every harness meets rigorous quality standards, guaranteeing reliable performance..
             </p>
           </div>
         </div>
@@ -554,8 +551,7 @@ Industries we cater to section
               Logistics & Infrastructure
             </h3>
             <p class="py-3 leading-[1.6] text-base">
-              Our cutting-edge machinery ensures every harness meets stringent
-              industry standards, guaranteeing reliable and top-tier performance.
+              Our advanced machinery guarantees reliable, top-tier harnesses meeting industry standards.
             </p>
           </div>
         </div>
@@ -581,8 +577,7 @@ Industries we cater to section
               Medical Devices & Equipment
             </h3>
             <p class="py-3 leading-[1.6] text-base">
-              Our cutting-edge machinery ensures every harness meets stringent
-              industry standards, guaranteeing reliable and top-tier performance.
+              Our advanced machinery ensures every harness undergoes rigorous testing, guaranteeing dependable, high-quality performance.
             </p>
           </div>
         </div>
@@ -608,8 +603,7 @@ Industries we cater to section
               High-Power Electrical Systems
             </h3>
             <p class="py-3 leading-[1.6] text-base">
-              Our cutting-edge machinery ensures every harness meets stringent
-              industry standards, guaranteeing reliable and top-tier performance.
+              Utilizing advanced automation, our harnesses surpass industry standards for dependable output.
             </p>
           </div>
         </div>
@@ -622,8 +616,7 @@ Industries we cater to section
    FAQ Section
 ======================================-->
 
-<section
-  class="pt-16 md:pt-20 lg:pt-[98px] xl:pt-[120px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] relative @@faqSpacing">
+<section class="pt-16 pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] relative @@faqSpacing">
   <div
     class="absolute scale-y-[3.5] sm:scale-y-[2.2] md:scale-y-[1.6] xl:scale-y-[1.4] scale-x-[1.7] left-1/2 top-1/2 max-md:-translate-y-[45%] md:-translate-y-1/2 -translate-x-1/2 -z-30">
     <img src="<?php echo get_template_directory_uri(); ?>/images/images/hero-gradient-background-02.png"

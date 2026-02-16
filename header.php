@@ -131,9 +131,9 @@
         <!-- Desktop Menu -->
         <div class="flex items-center gap-x-10 hidden lg:flex">
           <ul class="flex items-center gap-x-10 text-white font-medium uppercase">
-            <li><a href="#about-us" class="lenis-scroll-to hover:text-gray-300 transition-colors">About</a></li>
-            <li><a href="#why-choose-us" class="lenis-scroll-to hover:text-gray-300 transition-colors">Why Choose Us</a></li>
-            <li><a href="#what-we-offer" class="lenis-scroll-to hover:text-gray-300 transition-colors">What We Offer</a></li>
+            <li><a href="<?php echo esc_url(home_url('/#about-us')); ?>" class="nav-link lenis-scroll-to hover:text-white transition-colors">About</a></li>
+            <li><a href="<?php echo esc_url(home_url('/#why-choose-us')); ?>" class="nav-link lenis-scroll-to hover:text-white transition-colors">Why Choose Us</a></li>
+            <li><a href="<?php echo esc_url(home_url('/#what-we-offer')); ?>" class="nav-link lenis-scroll-to hover:text-white transition-colors">What We Offer</a></li>
           </ul>
           <div class="flex items-center gap-x-10 text-white font-medium">
             <a href="<?php echo esc_url(home_url('/contact')); ?>" class="rv-button rv-button-sm !bg-red-500 !text-white"
@@ -159,9 +159,9 @@
       <!-- Mobile Menu Overlay -->
       <div id="mobile-menu" class="fixed inset-0 bg-black z-[1001] hidden flex-col items-center justify-center space-y-8 transition-all duration-300 gap-y-8">
           <ul class="flex flex-col items-center gap-y-8 text-white text-2xl font-medium uppercase">
-            <li><a href="#about-us" class="mobile-link hover:text-gray-300 transition-colors">About</a></li>
-            <li><a href="#why-choose-us" class="mobile-link hover:text-gray-300 transition-colors">Why Choose Us</a></li>
-            <li><a href="#what-we-offer" class="mobile-link hover:text-gray-300 transition-colors">What We Offer</a></li>
+            <li><a href="<?php echo esc_url(home_url('/#about-us')); ?>" class="mobile-link hover:text-gray-300 transition-colors">About</a></li>
+            <li><a href="<?php echo esc_url(home_url('/#why-choose-us')); ?>" class="mobile-link hover:text-gray-300 transition-colors">Why Choose Us</a></li>
+            <li><a href="<?php echo esc_url(home_url('/#what-we-offer')); ?>" class="mobile-link hover:text-gray-300 transition-colors">What We Offer</a></li>
           </ul>
           <div class="flex items-center text-white font-medium">
             <a href="<?php echo esc_url(home_url('/contact')); ?>" class="rv-button rv-button-sm !bg-red-500 !text-white"
