@@ -46,11 +46,11 @@ get_header();
 
       <!-- Full Name Field -->
       <div class="md:col-span-full">
-        <label for="name" class="text-2xl leading-[1.2] tracking-[-0.48px] text-secondary dark:text-backgroundBody">
+        <label for="name" class="text-2xl leading-[1.2] tracking-[-0.48px] text-secondary">
           Full Name
         </label>
         <input type="text" name="name" id="name" placeholder="Enter your full name" required
-          class="py-4 pl-5 bg-backgroundBody dark:bg-dark focus:outline-none focus:border-primary border dark:border-dark w-full text-colorText dark:text-backgroundBody/70 text-xl leading-[1.4] tracking-[0.4px] mt-3" />
+          class="py-4 pl-5 bg-backgroundBody focus:outline-none focus:border-primary border w-full text-colorText text-xl leading-[1.4] tracking-[0.4px] mt-3" />
       </div>
 
       <!-- Place Field -->
@@ -59,7 +59,7 @@ get_header();
           Place
         </label>
         <input type="text" name="place" id="place" placeholder="Enter your place"
-          class="py-4 pl-5 bg-backgroundBody dark:bg-dark focus:outline-none focus:border-primary border dark:border-dark w-full text-colorText dark:text-backgroundBody/70 text-xl leading-[1.4] tracking-[0.4px] mt-3" />
+          class="py-4 pl-5 bg-backgroundBody focus:outline-none focus:border-primary border w-full text-colorText text-xl leading-[1.4] tracking-[0.4px] mt-3" />
       </div>
 
       <!-- Email Field -->
@@ -68,7 +68,7 @@ get_header();
           Email
         </label>
         <input type="email" name="email" id="email" placeholder="Enter your email" required
-          class="py-4 pl-5 bg-backgroundBody dark:bg-dark focus:outline-none focus:border-primary border dark:border-dark w-full text-colorText dark:text-backgroundBody/70 text-xl leading-[1.4] tracking-[0.4px] mt-3" />
+          class="py-4 pl-5 bg-backgroundBody focus:outline-none focus:border-primary border w-full text-colorText text-xl leading-[1.4] tracking-[0.4px] mt-3" />
       </div>
 
       <!-- Message -->
@@ -76,9 +76,8 @@ get_header();
         <label for="message" class="text-2xl leading-[1.2] tracking-[-0.48px] text-secondary dark:text-backgroundBody">
           Message
         </label>
-        <textarea name="message" id="message" placeholder="Enter your message" rows="5"
-          required
-          class="py-4 pl-5 bg-backgroundBody dark:bg-dark focus:outline-none focus:border-primary border dark:border-dark w-full text-colorText dark:text-backgroundBody/70 text-xl leading-[1.4] tracking-[0.4px] mt-3"></textarea>
+        <textarea name="message" id="message" placeholder="Enter your message" rows="5" required
+          class="py-4 pl-5 bg-backgroundBody focus:outline-none focus:border-primary border w-full text-colorText text-xl leading-[1.4] tracking-[0.4px] mt-3"></textarea>
       </div>
 
       <!-- Submit Button -->

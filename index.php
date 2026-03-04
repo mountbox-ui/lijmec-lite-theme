@@ -13,8 +13,8 @@ get_header();
   <!-- Gradient Background Wrapper -->
   <div id="hero-gradient-wrapper"
     class="absolute top-0 md:-top-[10%] left-0 lg:-left-[17%] 2xl:left-0 -z-10 blur-[65px]">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/images/hero-gradient-background.png" alt="hero-gradient-background" id="hero-gradient"
-      class="scale-50 left-0 -top-[10%]" />
+    <img src="<?php echo get_template_directory_uri(); ?>/images/images/hero-gradient-background.png"
+      alt="hero-gradient-background" id="hero-gradient" class="scale-50 left-0 -top-[10%]" />
   </div>
   <div class="px-4 md:px-[30px] flex flex-col gap-y-10 gap-x-5 lg:flex-row justify-between">
     <!-- Content -->
@@ -34,7 +34,8 @@ get_header();
       <!-- Hero Buttons -->
       <ul class="mt-7 md:mt-9 lg:mt-14 cursor-pointer reveal-me-2">
         <li>
-          <a href="<?php echo esc_url(home_url('/contact')); ?>" class="rv-button rv-button-sm block md:inline-block !bg-red-500 !text-white"
+          <a href="<?php echo esc_url(home_url('/contact')); ?>"
+            class="rv-button rv-button-sm block md:inline-block !bg-red-500 !text-white"
             style="background-color: #ef4444 !important; color: white !important;">
             <div class="rv-button-top text-center">
               <span>Explore Capabilities</span>
@@ -49,16 +50,18 @@ get_header();
 
     <div class="md:flex-1 flex flex-col sm:flex-row gap-5">
       <figure class="mt-[78px] relative">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/images/hero-img/hero-img-1.jpg" alt="hero-img" class="max-sm:w-full" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/images/hero-img/hero-img-1.jpg" alt="hero-img"
+          class="max-sm:w-full" />
       </figure>
       <figure>
-        <img src="<?php echo get_template_directory_uri(); ?>/images/images/hero-img/hero-img-2.jpg" alt="hero-img" class="max-sm:w-full" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/images/hero-img/hero-img-2.jpg" alt="hero-img"
+          class="max-sm:w-full" />
       </figure>
     </div>
   </div>
 </section>
 
-<?php if (have_posts()) : ?>
+<?php if (have_posts()): ?>
   <!-- Blog Posts Section -->
   <section class="pt-28 md:pt-[250px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px]">
     <div class="container">
@@ -72,24 +75,25 @@ get_header();
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px]">
-        <?php while (have_posts()) : the_post(); ?>
-          <article class="border dark:border-dark p-6 reveal-me">
-            <?php if (has_post_thumbnail()) : ?>
+        <?php while (have_posts()):
+          the_post(); ?>
+          <article class="border p-6 reveal-me">
+            <?php if (has_post_thumbnail()): ?>
               <a href="<?php the_permalink(); ?>">
                 <?php the_post_thumbnail('large', array('class' => 'w-full h-auto mb-5')); ?>
               </a>
             <?php endif; ?>
-            
+
             <h3 class="mb-3">
               <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
             </h3>
-            
+
             <div class="text-sm mb-3 opacity-70">
               <?php echo get_the_date(); ?>
             </div>
-            
+
             <p class="mb-5"><?php echo get_the_excerpt(); ?></p>
-            
+
             <a href="<?php the_permalink(); ?>" class="text-primary hover:underline">
               <?php _e('Read More', 'lijmec'); ?> →
             </a>
@@ -109,7 +113,7 @@ get_header();
       </div>
     </div>
   </section>
-<?php else : ?>
+<?php else: ?>
   <section class="pt-28 md:pt-[250px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px]">
     <div class="container text-center">
       <h2><?php _e('No posts found', 'lijmec'); ?></h2>

@@ -4663,6 +4663,7 @@ a {
 
 .font-instrument {
   font-family: 'Instrument Serif', system-ui;
+  color: #ed1c24;
 }
 
 .font-satoshi {
@@ -5636,7 +5637,8 @@ p div {
 .rv-button .rv-button-top span,
 .rv-button .rv-button-bottom span {
   display: inline-block;
-  font-weight: 400;
+  font-weight: 600;
+  color: white;
   text-transform: uppercase;
   letter-spacing: 1.12px;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
