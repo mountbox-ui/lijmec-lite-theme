@@ -18,7 +18,7 @@ get_header();
 
   <div class="max-w-[1440px] pt-28 md:pt-[180px] pb-14 md:pb-16 mx-auto relative z-10 px-5 md:px-10 xl:px-0">
     <div class="reveal-me">
-      <h1 class="xl:text-[96px] font-semibold xl:leading-[1.3] xl:tracking-[-2.88px] text-left text-colorText">
+      <h1 class="xl:text-[96px] font-semibold xl:leading-[1.3] xl:tracking-[-2.88px] text-left text-black">
         Precision
         <div
           class="cta-slider-container max-sm:block sm:inline-block max-sm:mb-7 translate-y-5 h-[100px] overflow-hidden align-bottom align-text-bottom relative top-2"
@@ -38,7 +38,7 @@ get_header();
             </div>
           </div>
         </div>
-        Wire Harness Engineering for Industries
+        wire harness engineering for industries
       </h1>
     </div>
 
@@ -559,6 +559,8 @@ Industries we cater to section
 
     <!-- Card-4:Electronic devices and wiring harness  -->
 
+    <article class="blog-card p-2.5 group relative reveal-me hidden lg:block"></article>
+
     <article class="blog-card border p-2.5 group relative reveal-me">
       <div class="w-full">
         <figure class="overflow-hidden h-[238px] relative">
@@ -586,7 +588,7 @@ Industries we cater to section
 
 
     <!-- Card-5: High-Power Electrical -->
-    <article class="blog-card border dark:border-dark p-2.5 group relative reveal-me">
+    <!-- <article class="blog-card border dark:border-dark p-2.5 group relative reveal-me">
       <div class="w-full">
         <figure class="overflow-hidden h-[238px] relative">
           <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/electrical.png"
@@ -609,7 +611,7 @@ Industries we cater to section
           </div>
         </div>
       </div>
-    </article>
+    </article> -->
   </div>
 </section>
 
@@ -617,23 +619,23 @@ Industries we cater to section
    FAQ Section
 ======================================-->
 
-<section class="pt-16 pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] relative">
+<!-- <section class="pt-16 pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] relative">
   <div
     class="absolute scale-y-[3.5] sm:scale-y-[2.2] md:scale-y-[1.6] xl:scale-y-[1.4] scale-x-[1.7] left-1/2 top-1/2 max-md:-translate-y-[45%] md:-translate-y-1/2 -translate-x-1/2 -z-30">
     <img src="<?php echo get_template_directory_uri(); ?>/images/images/hero-gradient-background-02.png"
       alt="gradient-bg" />
   </div>
-  <div class="container">
-    <!-- FAQ Section Title -->
+  <div class="container"> -->
+<!-- FAQ Section Title -->
 
-    <h2 class="mb-10 md:mb-20 text-center text-appear-2">
+<!-- <h2 class="mb-10 md:mb-20 text-center text-appear-2">
       Frequently asked <i class="font-instrument">Questions</i>
-    </h2>
+    </h2> -->
 
-    <!-- FAQ Items Container -->
-    <div class="max-w-[900px] w-full mx-auto [&>*:not(:last-child)]:mb-6 reveal-me">
-      <!-- FAQ Item 1 -->
-      <div class="accordion-item overflow-hidden bg-backgroundBody border border-backgroundBody duration-300">
+<!-- FAQ Items Container -->
+<!-- <div class="max-w-[900px] w-full mx-auto [&>*:not(:last-child)]:mb-6 reveal-me"> -->
+<!-- FAQ Item 1 -->
+<!-- <div class="accordion-item overflow-hidden bg-backgroundBody border border-backgroundBody duration-300">
         <div class="accordion-header relative cursor-pointer py-5 md:py-[35px] max-md:px-5 md:px-10">
           <h3
             class="text-xl md:text-[25px] font-normal sm:font-medium md:leading-[25.2px] md:tracking-normal max-md:inline-block max-lg:pr-10">
@@ -646,10 +648,10 @@ Industries we cater to section
           and equipment, catering to various sectors with a focus on quality,
           durability, and performance.
         </p>
-      </div>
+      </div> -->
 
-      <!-- FAQ Item 2 -->
-      <div class="accordion-item overflow-hidden bg-backgroundBody border border-backgroundBody duration-300">
+<!-- FAQ Item 2 -->
+<!-- <div class="accordion-item overflow-hidden bg-backgroundBody border border-backgroundBody duration-300">
         <div class="accordion-header relative cursor-pointer py-5 md:py-[35px] max-md:px-5 md:px-10">
           <h3
             class="text-xl md:text-[25px] font-normal sm:font-medium md:tracking-normal max-md:inline-block max-lg:pr-10">
@@ -662,10 +664,10 @@ Industries we cater to section
           including customized equipment designed to meet specific industrial
           requirements.
         </p>
-      </div>
+      </div> -->
 
-      <!-- FAQ Item 3 -->
-      <div class="accordion-item overflow-hidden bg-backgroundBody border border-backgroundBody duration-300">
+<!-- FAQ Item 3 -->
+<!-- <div class="accordion-item overflow-hidden bg-backgroundBody border border-backgroundBody duration-300">
         <div class="accordion-header relative cursor-pointer py-5 md:py-[35px] max-md:px-5 md:px-10">
           <h3
             class="text-xl md:text-[25px] font-normal sm:font-medium md:tracking-normal max-md:inline-block max-lg:pr-8">
@@ -678,10 +680,10 @@ Industries we cater to section
           ensuring that the machinery meets exact operational and technical
           specifications.
         </p>
-      </div>
+      </div> -->
 
-      <!-- FAQ Item 4 -->
-      <div class="accordion-item overflow-hidden bg-backgroundBody border border-backgroundBody duration-300">
+<!-- FAQ Item 4 -->
+<!-- <div class="accordion-item overflow-hidden bg-backgroundBody border border-backgroundBody duration-300">
         <div class="accordion-header relative cursor-pointer py-5 md:py-[35px] max-md:px-5 md:px-10">
           <h3
             class="text-xl md:text-[25px] font-normal sm:font-medium md:tracking-normal max-md:inline-block max-lg:pr-8">
@@ -694,10 +696,10 @@ Industries we cater to section
           using reliable materials and modern production techniques to ensure
           consistent performance and reliability.
         </p>
-      </div>
+      </div> -->
 
-      <!-- FAQ Item 5 -->
-      <div class="accordion-item overflow-hidden bg-backgroundBody border border-backgroundBody duration-300">
+<!-- FAQ Item 5 -->
+<!-- <div class="accordion-item overflow-hidden bg-backgroundBody border border-backgroundBody duration-300">
         <div class="accordion-header relative cursor-pointer py-5 md:py-[35px] max-md:px-5 md:px-10">
           <h3
             class="text-xl md:text-[25px] font-normal sm:font-medium md:tracking-normal max-md:inline-block max-lg:pr-8">
@@ -711,10 +713,10 @@ Industries we cater to section
           respond promptly to discuss requirements and provide detailed
           information.
         </p>
-      </div>
-    </div>
-  </div>
-</section>
+      </div> -->
+<!-- </div> -->
+<!-- </div> -->
+<!-- </section> -->
 
 
 
