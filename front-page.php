@@ -451,7 +451,7 @@ Industries we cater to section
   </div>
   <!-- Main Section  -->
 
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px] px-4 md:px-[30px]">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[30px] px-4 md:px-[30px]">
     <!-- Card-1: Automobile & EV Sector -->
     <article class="blog-card border p-2.5 group relative reveal-me">
       <div class="w-full">
@@ -559,7 +559,6 @@ Industries we cater to section
 
     <!-- Card-4:Electronic devices and wiring harness  -->
 
-    <article class="blog-card p-2.5 group relative reveal-me hidden lg:block"></article>
 
     <article class="blog-card border p-2.5 group relative reveal-me">
       <div class="w-full">
@@ -612,30 +611,28 @@ Industries we cater to section
         </div>
       </div>
     </article> -->
-  </div>
-</section>
 
-<!--=====================================
+    <!--=====================================
    FAQ Section
 ======================================-->
 
-<!-- <section class="pt-16 pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] relative">
+    <!-- <section class="pt-16 pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] relative">
   <div
     class="absolute scale-y-[3.5] sm:scale-y-[2.2] md:scale-y-[1.6] xl:scale-y-[1.4] scale-x-[1.7] left-1/2 top-1/2 max-md:-translate-y-[45%] md:-translate-y-1/2 -translate-x-1/2 -z-30">
     <img src="<?php echo get_template_directory_uri(); ?>/images/images/hero-gradient-background-02.png"
       alt="gradient-bg" />
   </div>
   <div class="container"> -->
-<!-- FAQ Section Title -->
+    <!-- FAQ Section Title -->
 
-<!-- <h2 class="mb-10 md:mb-20 text-center text-appear-2">
+    <!-- <h2 class="mb-10 md:mb-20 text-center text-appear-2">
       Frequently asked <i class="font-instrument">Questions</i>
     </h2> -->
 
-<!-- FAQ Items Container -->
-<!-- <div class="max-w-[900px] w-full mx-auto [&>*:not(:last-child)]:mb-6 reveal-me"> -->
-<!-- FAQ Item 1 -->
-<!-- <div class="accordion-item overflow-hidden bg-backgroundBody border border-backgroundBody duration-300">
+    <!-- FAQ Items Container -->
+    <!-- <div class="max-w-[900px] w-full mx-auto [&>*:not(:last-child)]:mb-6 reveal-me"> -->
+    <!-- FAQ Item 1 -->
+    <!-- <div class="accordion-item overflow-hidden bg-backgroundBody border border-backgroundBody duration-300">
         <div class="accordion-header relative cursor-pointer py-5 md:py-[35px] max-md:px-5 md:px-10">
           <h3
             class="text-xl md:text-[25px] font-normal sm:font-medium md:leading-[25.2px] md:tracking-normal max-md:inline-block max-lg:pr-10">
@@ -650,8 +647,8 @@ Industries we cater to section
         </p>
       </div> -->
 
-<!-- FAQ Item 2 -->
-<!-- <div class="accordion-item overflow-hidden bg-backgroundBody border border-backgroundBody duration-300">
+    <!-- FAQ Item 2 -->
+    <!-- <div class="accordion-item overflow-hidden bg-backgroundBody border border-backgroundBody duration-300">
         <div class="accordion-header relative cursor-pointer py-5 md:py-[35px] max-md:px-5 md:px-10">
           <h3
             class="text-xl md:text-[25px] font-normal sm:font-medium md:tracking-normal max-md:inline-block max-lg:pr-10">
@@ -666,8 +663,8 @@ Industries we cater to section
         </p>
       </div> -->
 
-<!-- FAQ Item 3 -->
-<!-- <div class="accordion-item overflow-hidden bg-backgroundBody border border-backgroundBody duration-300">
+    <!-- FAQ Item 3 -->
+    <!-- <div class="accordion-item overflow-hidden bg-backgroundBody border border-backgroundBody duration-300">
         <div class="accordion-header relative cursor-pointer py-5 md:py-[35px] max-md:px-5 md:px-10">
           <h3
             class="text-xl md:text-[25px] font-normal sm:font-medium md:tracking-normal max-md:inline-block max-lg:pr-8">
@@ -682,8 +679,8 @@ Industries we cater to section
         </p>
       </div> -->
 
-<!-- FAQ Item 4 -->
-<!-- <div class="accordion-item overflow-hidden bg-backgroundBody border border-backgroundBody duration-300">
+    <!-- FAQ Item 4 -->
+    <!-- <div class="accordion-item overflow-hidden bg-backgroundBody border border-backgroundBody duration-300">
         <div class="accordion-header relative cursor-pointer py-5 md:py-[35px] max-md:px-5 md:px-10">
           <h3
             class="text-xl md:text-[25px] font-normal sm:font-medium md:tracking-normal max-md:inline-block max-lg:pr-8">
@@ -698,8 +695,8 @@ Industries we cater to section
         </p>
       </div> -->
 
-<!-- FAQ Item 5 -->
-<!-- <div class="accordion-item overflow-hidden bg-backgroundBody border border-backgroundBody duration-300">
+    <!-- FAQ Item 5 -->
+    <!-- <div class="accordion-item overflow-hidden bg-backgroundBody border border-backgroundBody duration-300">
         <div class="accordion-header relative cursor-pointer py-5 md:py-[35px] max-md:px-5 md:px-10">
           <h3
             class="text-xl md:text-[25px] font-normal sm:font-medium md:tracking-normal max-md:inline-block max-lg:pr-8">
@@ -714,55 +711,55 @@ Industries we cater to section
           information.
         </p>
       </div> -->
-<!-- </div> -->
-<!-- </div> -->
-<!-- </section> -->
+    <!-- </div> -->
+    <!-- </div> -->
+    <!-- </section> -->
 
 
 
-<!--=====================================
+    <!--=====================================
    CTA Section
 ======================================-->
-<section id="contact" class="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] relative">
-  <div class="container">
-    <!-- CTA Heading -->
-    <h2 class="text-center xl:text-[96px] font-normal xl:leading-[1.1] xl:tracking-[-2.88px]">
-      Ready to
-      <div
-        class="cta-slider-container max-sm:block sm:inline-block max-sm:mb-5 translate-y-2 sm:translate-y-[20px] max-sm:mt-2.5">
-        <div class="cta-inline-slider">
-          <div class="slide">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/automobiles.png"
-              alt="Slide 1" />
+    <section id="contact" class="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] relative">
+      <div class="container">
+        <!-- CTA Heading -->
+        <h2 class="text-center xl:text-[96px] font-normal xl:leading-[1.1] xl:tracking-[-2.88px]">
+          Ready to
+          <div
+            class="cta-slider-container max-sm:block sm:inline-block max-sm:mb-5 translate-y-2 sm:translate-y-[20px] max-sm:mt-2.5">
+            <div class="cta-inline-slider">
+              <div class="slide">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/automobiles.png"
+                  alt="Slide 1" />
+              </div>
+              <div class="slide">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/aerospace.png"
+                  alt="Slide 2" />
+              </div>
+              <div class="slide">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/logistics.png"
+                  alt="Slide 3" />
+              </div>
+            </div>
           </div>
-          <div class="slide">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/aerospace.png"
-              alt="Slide 2" />
-          </div>
-          <div class="slide">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/logistics.png"
-              alt="Slide 3" />
-          </div>
+          grow
+          <span class="font-instrument sm:mt-10 italic block max-md:inline-block">your business?</span>
+        </h2>
+
+        <!-- CTA Buttons -->
+        <div class="col-span-full mx-auto sm:mt-14 flex justify-center mb-10">
+          <a href="<?php echo esc_url(home_url('/contact')); ?>" class="rv-button rv-button-sm !bg-red-500 !text-white"
+            style="background-color: #ef4444 !important; color: white !important;">
+            <div class="rv-button-top">
+              <span>Contact Us</span>
+            </div>
+            <div class="rv-button-bottom">
+              <span>Contact Us</span>
+            </div>
+          </a>
         </div>
       </div>
-      grow
-      <span class="font-instrument sm:mt-10 italic block max-md:inline-block">your business?</span>
-    </h2>
+    </section>
 
-    <!-- CTA Buttons -->
-    <div class="col-span-full mx-auto sm:mt-14 flex justify-center mb-10">
-      <a href="<?php echo esc_url(home_url('/contact')); ?>" class="rv-button rv-button-sm !bg-red-500 !text-white"
-        style="background-color: #ef4444 !important; color: white !important;">
-        <div class="rv-button-top">
-          <span>Contact Us</span>
-        </div>
-        <div class="rv-button-bottom">
-          <span>Contact Us</span>
-        </div>
-      </a>
-    </div>
-  </div>
-</section>
-
-<?php
-get_footer();
+    <?php
+    get_footer();
