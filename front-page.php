@@ -482,8 +482,7 @@ Industries we cater to section
     <article class="blog-card border p-2.5 group relative reveal-me">
       <div class="w-full">
         <figure class="overflow-hidden h-[238px] relative">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/images/industries/aerospace.png"
-            alt="Aviation & Aerospace"
+          <img src="<?php echo get_template_directory_uri(); ?>/images/images/aviation.jpeg" alt="Aviation & Aerospace"
             class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3 object-cover"
             width="370" height="238" />
           <div class=" absolute bottom-4 left-3 z-10 bg-black backdrop-blur-sm px-4 py-2 rounded-full">
