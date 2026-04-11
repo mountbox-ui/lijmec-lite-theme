@@ -1,5 +1,6 @@
 <?php
 /**
+ * Template Name: Front Page
  * The front page template file
  *
  * @package LijMec
