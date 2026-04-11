@@ -439,7 +439,7 @@ why choose us section
 Industries we cater to section 
 ======================= -->
 
-<section class="pt-28 pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] overflow-hidden max-w-[1440px] mx-auto">
+<section class="md:pt-28 pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] overflow-hidden max-w-[1440px] mx-auto">
   <!-- section header -->
   <div class="text-center mb-8 md:mb-16">
     <h2 class="text-appear mb-3">
@@ -722,7 +722,7 @@ Industries we cater to section
 <!--=====================================
    CTA Section
 ======================================-->
-<section id="contact" class="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] relative">
+<section id="contact" class="md:pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] relative">
   <div class="container">
     <!-- CTA Heading -->
     <h2 class="text-center xl:text-[96px] font-normal xl:leading-[1.1] xl:tracking-[-2.88px]">
