@@ -288,7 +288,7 @@ function lijmec_handle_contact_form()
     if (empty($site_name))
         $site_name = 'LijMec';
 
-    $admin_email_addr = 'hudaifath.m@mountbox.in';
+    $admin_email_addr = 'info@lijmec.com';
     $phone = get_theme_mod('lijmec_phone', '+91 99958 22922');
     $year = date('Y');
 
@@ -350,7 +350,7 @@ function lijmec_handle_contact_form()
                 }
 
                 h2 {
-                    color: #005A64;
+                    color: #ed1c24;
                     font-size: 22px;
                     margin-top: 0;
                     margin-bottom: 20px;
@@ -360,7 +360,7 @@ function lijmec_handle_contact_form()
                     font-size: 15px;
                     line-height: 1.6;
                     margin-bottom: 15px;
-                    color: #4b5563;
+                    color: #010102ff;
                 }
 
                 .details-box {
