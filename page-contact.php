@@ -96,5 +96,54 @@ get_header();
   </div>
 </section>
 
+<!-- Thank You Modal -->
+<?php if (isset($_GET['contact']) && $_GET['contact'] === 'success'): ?>
+  <div id="thank-you-modal"
+    class="fixed inset-0 z-50 flex items-center justify-center overflow-auto transition-opacity duration-300"
+    style="background-color: rgba(0, 0, 0, 0.6); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);">
+    <div
+      class="relative bg-white w-[90%] max-w-md p-8 sm:p-10 rounded-2xl shadow-2xl text-center transform transition-all duration-300 scale-100 opacity-100">
+      <!-- Close Button -->
+      <button onclick="document.getElementById('thank-you-modal').style.display='none'"
+        class="absolute top-4 right-4 text-gray-400 hover:text-gray-800 focus:outline-none transition-colors">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+
+      <!-- Success Icon -->
+      <!-- <div class="mx-auto flex items-center justify-center h-20 w-20 rounded-full bg-green-100 mb-6 shadow-sm">
+      <svg class="h-10 w-10 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+      </svg>
+    </div> -->
+
+      <h3 class="text-3xl font-bold text-gray-900 mb-3 tracking-tight">Thank You!</h3>
+      <p class="text-lg text-gray-600 mb-8 leading-relaxed">Your message has been successfully sent. We will get back to
+        you shortly.</p>
+
+      <button onclick="document.getElementById('thank-you-modal').style.display='none'"
+        class="rv-button rv-button-sm w-full flex justify-center !bg-red-500 !text-white"
+        style="background-color: #ef4444 !important; color: white !important;">
+        <div class="rv-button-top">
+          <span>Close</span>
+        </div>
+        <div class="rv-button-bottom">
+          <span>Close</span>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <script>
+    // Clean up the URL by removing the ?contact=success parameter without reloading
+    if (window.history.replaceState) {
+      const url = new URL(window.location);
+      url.searchParams.delete('contact');
+      window.history.replaceState({ path: url.href }, '', url.href);
+    }
+  </script>
+<?php endif; ?>
+
 <?php
 get_footer();

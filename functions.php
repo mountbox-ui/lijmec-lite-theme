@@ -283,26 +283,198 @@ function lijmec_handle_contact_form()
         exit;
     }
 
-    // Prepare email
-    $to = get_theme_mod('lijmec_email', get_option('admin_email'));
-    $subject = sprintf(__('New Contact Form Submission from %s', 'lijmec'), $name);
-    $body = sprintf(
-        __("Name: %s\nEmail: %s\nPlace: %s\n\nMessage:\n%s", 'lijmec'),
-        $name,
-        $email,
-        $place,
-        $message
-    );
-    $headers = array(
-        'Content-Type: text/plain; charset=UTF-8',
-        'Reply-To: ' . $email
-    );
+    // Prepare HTML Email Content helper function (inline closure won't work in older PHP, so we'll just write it here)
+    $site_name = get_bloginfo('name');
+    if (empty($site_name))
+        $site_name = 'LijMec';
 
-    // Send email
-    $sent = wp_mail($to, $subject, $body, $headers);
+    $admin_email_addr = 'hudaifath.m@mountbox.in';
+    $phone = get_theme_mod('lijmec_phone', '+91 99958 22922');
+    $year = date('Y');
+
+    // Email Template Generator
+    $generate_email_html = function ($is_admin) use ($name, $email, $place, $message, $site_name, $admin_email_addr, $phone, $year) {
+        $title = $is_admin ? "New Contact Request!" : "Thank you for your contact request!";
+        $greeting = $is_admin ? "Hello Admin," : "Dear " . esc_html($name) . ",";
+
+        $intro_text = $is_admin
+            ? "You have received a new contact request from " . esc_html($name) . ". Here are the details:"
+            : "Thank you for contacting " . esc_html($site_name) . ". We have received your message and will get back to you as soon as possible.";
+
+        $footer_text = $is_admin
+            ? "Please review this message."
+            : "We will review your message and get back to you within 2-3 business days.<br><br>If you have any questions, please don't hesitate to contact us.";
+
+        // Grab SVG logo
+        $logo_svg = get_template_directory_uri() . '/images/images/LijMec-Logo-Black.svg';
+
+        ob_start();
+        ?>
+        <!DOCTYPE html>
+        <html>
+
+        <head>
+            <meta charset="UTF-8">
+            <title>Contact Form</title>
+            <style>
+                body {
+                    background-color: #f9f9f9;
+                    font-family: Arial, sans-serif;
+                    margin: 0;
+                    padding: 40px 0;
+                    color: #333333;
+                }
+
+                .container {
+                    max-width: 600px;
+                    margin: 0 auto;
+                    background-color: #ffffff;
+                    padding: 40px;
+                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+                }
+
+                .logo {
+                    text-align: center;
+                    margin-bottom: 30px;
+                }
+
+                .logo img {
+                    max-height: 60px;
+                    max-width: 200px;
+                }
+
+                .divider {
+                    border-top: 2px solid #005A64;
+                    margin: 20px 0 30px 0;
+                    opacity: 0.2;
+                }
+
+                h2 {
+                    color: #005A64;
+                    font-size: 22px;
+                    margin-top: 0;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    font-size: 15px;
+                    line-height: 1.6;
+                    margin-bottom: 15px;
+                    color: #4b5563;
+                }
+
+                .details-box {
+                    background-color: #f8f9fa;
+                    padding: 25px;
+                    border-radius: 6px;
+                    margin: 30px 0;
+                }
+
+                .details-box h3 {
+                    margin-top: 0;
+                    font-size: 16px;
+                    color: #005A64;
+                    margin-bottom: 15px;
+                }
+
+                .details-box p {
+                    margin: 8px 0;
+                    font-size: 14px;
+                    color: #374151;
+                }
+
+                .details-box strong {
+                    color: #111827;
+                }
+
+                .footer {
+                    margin-top: 40px;
+                    text-align: center;
+                    font-size: 12px;
+                    color: #9ca3af;
+                    border-top: 1px solid #e5e7eb;
+                    padding-top: 20px;
+                }
+
+                .footer a {
+                    color: #3b82f6;
+                    text-decoration: none;
+                }
+
+                .brand-text {
+                    color: #005A64;
+                    font-weight: bold;
+                }
+            </style>
+        </head>
+
+        <body>
+            <div class="container">
+                <div class="logo">
+                    <img src="<?php echo esc_url($logo_svg); ?>" alt="<?php echo esc_attr($site_name); ?>"
+                        onerror="this.outerHTML='<h1 style=\'color:#005A64;margin:0;font-size:28px;\'>'+this.alt+'</h1>'">
+                </div>
+
+                <div class="divider"></div>
+
+                <h2><?php echo esc_html($title); ?></h2>
+                <p><?php echo esc_html($greeting); ?></p>
+                <p><?php echo $intro_text; ?></p>
+
+                <div class="details-box">
+                    <h3>Details:</h3>
+                    <p><strong>Name:</strong> <?php echo esc_html($name); ?></p>
+                    <p><strong>Email:</strong> <a
+                            href="mailto:<?php echo esc_attr($email); ?>"><?php echo esc_html($email); ?></a></p>
+                    <p><strong>Place:</strong> <?php echo esc_html($place); ?></p>
+                    <p><strong>Message:</strong><br> <?php echo nl2br(esc_html($message)); ?></p>
+                </div>
+
+                <p><?php echo $footer_text; ?></p>
+                <p><strong>Best regards,</strong><br><span class="brand-text"><?php echo esc_html($site_name); ?></span> Team
+                </p>
+
+                <div class="footer">
+                    &copy; <?php echo $year; ?> <span class="brand-text"><?php echo esc_html($site_name); ?></span>. All rights
+                    reserved.<br>
+                    Email: <a
+                        href="mailto:<?php echo esc_attr($admin_email_addr); ?>"><?php echo esc_html($admin_email_addr); ?></a>
+                    | Phone: <?php echo esc_html($phone); ?>
+                </div>
+            </div>
+        </body>
+
+        </html>
+        <?php
+        return ob_get_clean();
+    };
+
+    $from_name = esc_html($site_name);
+    $from_email = 'no-reply@' . str_replace('www.', '', $_SERVER['HTTP_HOST']); // Fallback to a domain-based email
+    // Or try to use admin email
+    if (is_email($admin_email_addr)) {
+        $from_email = $admin_email_addr;
+    }
+
+    // Send emails
+    $admin_subject = sprintf(__('New Contact Request from %s', 'lijmec'), $name);
+    $admin_headers = array(
+        'Content-Type: text/html; charset=UTF-8',
+        'Reply-To: ' . $email,
+        'From: ' . $from_name . ' <' . $from_email . '>'
+    );
+    $sent_admin = wp_mail($admin_email_addr, $admin_subject, $generate_email_html(true), $admin_headers);
+
+    $customer_subject = sprintf(__('Thank you for contacting %s', 'lijmec'), $site_name);
+    $customer_headers = array(
+        'Content-Type: text/html; charset=UTF-8',
+        'Reply-To: ' . $admin_email_addr,
+        'From: ' . $from_name . ' <' . $from_email . '>'
+    );
+    $sent_customer = wp_mail($email, $customer_subject, $generate_email_html(false), $customer_headers);
 
     // Redirect with status
-    if ($sent) {
+    if ($sent_admin || $sent_customer) {
         wp_redirect(add_query_arg('contact', 'success', wp_get_referer()));
     } else {
         wp_redirect(add_query_arg('contact', 'error', wp_get_referer()));
