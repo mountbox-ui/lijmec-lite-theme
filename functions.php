@@ -483,3 +483,47 @@ function lijmec_handle_contact_form()
 }
 add_action('admin_post_nopriv_lijmec_contact_form', 'lijmec_handle_contact_form');
 add_action('admin_post_lijmec_contact_form', 'lijmec_handle_contact_form');
+
+/**
+ * Add Organization Schema to Homepage
+ */
+function lijmec_add_homepage_schema() {
+    if ( is_front_page() || is_home() ) {
+        $custom_logo_id = get_theme_mod('custom_logo');
+        $logo_url = wp_get_attachment_image_url($custom_logo_id, 'full');
+        if (empty($logo_url)) {
+            $logo_url = get_template_directory_uri() . '/images/images/LijMec-Logo-Black.svg';
+        }
+        ?>
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Lijmec",
+          "url": "https://lijmec.com",
+          "logo": "<?php echo $logo_url; ?>",
+          "description": "Lijmec specializes in precision wire harness engineering in Thrissur, Kerala, delivering custom cable assemblies, industrial wiring solutions, and high-quality electrical components for industries across India.",
+          "email": "info@lijmec.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Building No: XIV/484-A, Kodunga, Vellikulangara",
+            "addressLocality": "Chalakudy",
+            "addressRegion": "Kerala",
+            "postalCode": "680699",
+            "addressCountry": "IN"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "India"
+          },
+          "sameAs": [
+            "https://www.facebook.com/",
+            "https://www.instagram.com/",
+            "https://www.linkedin.com/"
+          ]
+        }
+        </script>
+        <?php
+    }
+}
+add_action( 'wp_head', 'lijmec_add_homepage_schema' );

@@ -171,7 +171,7 @@ what we offer-v3 section
     <article>
       <div class="flex flex-col md:flex-row max-lg:flex-wrap mb-[30px] gap-[30px] reveal-me px-5 md:px-0 py-5">
         <!--  -->
-        <div class="feature-card flex-1 px-[30px] md:py-20 group">
+        <div class="feature-card flex-1 px-[30px] py-[30px] md:py-20 group">
           <span>
             <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
               <rect width="60" height="60" class="dark:fill-secondary fill-backgroundBody" />
@@ -187,7 +187,7 @@ what we offer-v3 section
           <p>Tailored engineering services built around your product specs.</p>
         </div>
         <!--  -->
-        <div class="feature-card flex-1 px-[30px] md:py-20 group">
+        <div class="feature-card flex-1 px-[30px] py-[30px] md:py-20 group">
           <span>
             <svg xmlns="http://www.w3.org/2000/svg" width="61" height="60" viewBox="0 0 61 60" fill="none">
               <rect width="60" height="60" transform="translate(0.333252)"
@@ -203,7 +203,7 @@ what we offer-v3 section
           </p>
         </div>
         <!--  -->
-        <div class="feature-card flex-1 px-[30px] md:py-20 group">
+        <div class="feature-card flex-1 px-[30px] py-[30px] md:py-20 group">
           <span>
             <svg xmlns="http://www.w3.org/2000/svg" width="61" height="60" viewBox="0 0 61 60" fill="none">
               <rect width="60" height="60" transform="translate(0.666504)"
@@ -217,7 +217,7 @@ what we offer-v3 section
           <p>From low volume to high volume runs — high standards every step.</p>
         </div>
         <!--  -->
-        <div class="feature-card flex-1 px-[30px] md:py-20 group">
+        <div class="feature-card flex-1 px-[30px] py-[30px] md:py-20 group">
           <span>
             <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
               <rect width="60" height="60" class="dark:fill-secondary fill-backgroundBody" />
