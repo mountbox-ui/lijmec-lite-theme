@@ -527,3 +527,16 @@ function lijmec_add_homepage_schema() {
     }
 }
 add_action( 'wp_head', 'lijmec_add_homepage_schema' );
+
+/**
+ * Ensure the site is indexable by search engines.
+ * This automatically fixes the "Blocked by robots meta tag" issue 
+ * caused by the WordPress "Discourage search engines" setting.
+ */
+function lijmec_enable_indexing() {
+    if ( get_option('blog_public') == '0' ) {
+        update_option('blog_public', '1');
+    }
+}
+add_action('init', 'lijmec_enable_indexing');
+
