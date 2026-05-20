@@ -497,33 +497,33 @@ function lijmec_add_homepage_schema()
         }
         ?>
         <script type="application/ld+json">
-                        {
-                          "@context": "https://schema.org",
-                          "@type": "Organization",
-                          "name": "Lijmec",
-                          "url": "https://lijmec.com",
-                          "logo": "<?php echo $logo_url; ?>",
-                          "description": "Lijmec specializes in precision wire harness engineering in Thrissur, Kerala, delivering custom cable assemblies, industrial wiring solutions, and high-quality electrical components for industries across India.",
-                          "email": "info@lijmec.com",
-                          "address": {
-                            "@type": "PostalAddress",
-                            "streetAddress": "Building No: XIV/484-A, Kodunga, Vellikulangara",
-                            "addressLocality": "Chalakudy",
-                            "addressRegion": "Kerala",
-                            "postalCode": "680699",
-                            "addressCountry": "IN"
-                          },
-                          "areaServed": {
-                            "@type": "Country",
-                            "name": "India"
-                          },
-                          "sameAs": [
-                            "https://www.facebook.com/",
-                            "https://www.instagram.com/",
-                            "https://www.linkedin.com/"
-                          ]
-                        }
-                        </script>
+                                                                {
+                                                                  "@context": "https://schema.org",
+                                                                  "@type": "Organization",
+                                                                  "name": "Lijmec",
+                                                                  "url": "https://lijmec.com",
+                                                                  "logo": "<?php echo $logo_url; ?>",
+                                                                  "description": "Lijmec specializes in precision wire harness engineering in Thrissur, Kerala, delivering custom cable assemblies, industrial wiring solutions, and high-quality electrical components for industries across India.",
+                                                                  "email": "info@lijmec.com",
+                                                                  "address": {
+                                                                    "@type": "PostalAddress",
+                                                                    "streetAddress": "Building No: XIV/484-A, Kodunga, Vellikulangara",
+                                                                    "addressLocality": "Chalakudy",
+                                                                    "addressRegion": "Kerala",
+                                                                    "postalCode": "680699",
+                                                                    "addressCountry": "IN"
+                                                                  },
+                                                                  "areaServed": {
+                                                                    "@type": "Country",
+                                                                    "name": "India"
+                                                                  },
+                                                                  "sameAs": [
+                                                                    "https://www.facebook.com/",
+                                                                    "https://www.instagram.com/",
+                                                                    "https://www.linkedin.com/"
+                                                                  ]
+                                                                }
+                                                                </script>
         <?php
     }
 }
@@ -542,3 +542,16 @@ function lijmec_enable_indexing()
 }
 add_action('init', 'lijmec_enable_indexing');
 
+/**
+ * Forcefully remove Hostinger or staging-injected noindex tags.
+ * This catches tags injected early in the <head> by server environments.
+ */
+function lijmec_strip_noindex_buffer()
+{
+    ob_start(function ($html) {
+        $html = str_ireplace('<meta name="robots" content="noindex">', '', $html);
+        $html = str_ireplace('<meta name="robots" content="noindex" />', '', $html);
+        return $html;
+    });
+}
+add_action('template_redirect', 'lijmec_strip_noindex_buffer', -9999);
