@@ -497,33 +497,33 @@ function lijmec_add_homepage_schema()
         }
         ?>
         <script type="application/ld+json">
-                {
-                  "@context": "https://schema.org",
-                  "@type": "Organization",
-                  "name": "Lijmec",
-                  "url": "https://lijmec.com",
-                  "logo": "<?php echo $logo_url; ?>",
-                  "description": "Lijmec specializes in precision wire harness engineering in Thrissur, Kerala, delivering custom cable assemblies, industrial wiring solutions, and high-quality electrical components for industries across India.",
-                  "email": "info@lijmec.com",
-                  "address": {
-                    "@type": "PostalAddress",
-                    "streetAddress": "Building No: XIV/484-A, Kodunga, Vellikulangara",
-                    "addressLocality": "Chalakudy",
-                    "addressRegion": "Kerala",
-                    "postalCode": "680699",
-                    "addressCountry": "IN"
-                  },
-                  "areaServed": {
-                    "@type": "Country",
-                    "name": "India"
-                  },
-                  "sameAs": [
-                    "https://www.facebook.com/",
-                    "https://www.instagram.com/",
-                    "https://www.linkedin.com/"
-                  ]
-                }
-                </script>
+                        {
+                          "@context": "https://schema.org",
+                          "@type": "Organization",
+                          "name": "Lijmec",
+                          "url": "https://lijmec.com",
+                          "logo": "<?php echo $logo_url; ?>",
+                          "description": "Lijmec specializes in precision wire harness engineering in Thrissur, Kerala, delivering custom cable assemblies, industrial wiring solutions, and high-quality electrical components for industries across India.",
+                          "email": "info@lijmec.com",
+                          "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Building No: XIV/484-A, Kodunga, Vellikulangara",
+                            "addressLocality": "Chalakudy",
+                            "addressRegion": "Kerala",
+                            "postalCode": "680699",
+                            "addressCountry": "IN"
+                          },
+                          "areaServed": {
+                            "@type": "Country",
+                            "name": "India"
+                          },
+                          "sameAs": [
+                            "https://www.facebook.com/",
+                            "https://www.instagram.com/",
+                            "https://www.linkedin.com/"
+                          ]
+                        }
+                        </script>
         <?php
     }
 }
@@ -534,10 +534,11 @@ add_action('wp_head', 'lijmec_add_homepage_schema');
  * This automatically fixes the "Blocked by robots meta tag" issue 
  * caused by the WordPress "Discourage search engines" setting.
  */
-// function lijmec_enable_indexing() {
-//     if ( get_option('blog_public') == '0' ) {
-//         update_option('blog_public', '1');
-//     }
-// }
-// add_action('init', 'lijmec_enable_indexing');
+function lijmec_enable_indexing()
+{
+    if (get_option('blog_public') == '0') {
+        update_option('blog_public', '1');
+    }
+}
+add_action('init', 'lijmec_enable_indexing');
 
